@@ -1,57 +1,71 @@
-**Chapakala** ("printing press" in Odia) is an open source typeface family, reviving the letterpress-era typefaces used for printing in the Oriya (now, Odia) script. The first typeface to be released in Chapakala19.
+# Chapakala
 
-# Chapakala19
+**Chapakala** (**ଛାପାକଳ**) (“printing press” in Odia) is an open-source typeface family that revives the letterpress-era typefaces used for printing in the Odia (formerly Oriya) script. Each subproject focuses on a distinct historical period of Odia type design.
 
-**Chapakala19** revives the workhorse typeface used for over five decades since 1838, when the Orissa Mission Press in Cuttack was founded. The name combines *chapakala* (printing press, a word born in the letterpress era) and *19* (19th-century).  
-
-The original type was designed by Manohar Karmakar, son-in-law of Panchanan Karmakar, pioneers of South Asian type design.
+The first release, **Chapakala19**, revives the 19th-century workhorse used in Odia publications at the Orissa Mission Press. Future subfolders (e.g., `20/`) will expand this family with other revivals.
 
 ---
 
-## Features
-- **Historical text reproduction:** Accurate retyping of 19th-century Odia books.  
-- **Everyday typesetting:** High-quality Odia typeface for web and print.  
-- **OCR training:** Training resource for Tesseract and ML-based OCR.  
+## Projects
+
+* **[Chapakala19](./19/)** — Revival of the 19th-century typeface designed by Manohar Karmakar for the Orissa Mission Press (est. 1838 by Rev. Charles Lacey).
+<!--* **Chapakala20** *(planned)* — A revival of 20th-century Odia letterpress typefaces.-->
+
+---
+
+## Goals
+
+* Study the typographic history of the Odia script and digitally revive typefaces.
+* Design typefaces to promote **historical text reproduction**, **modern everyday typesetting**, and **OCR training**.
 
 ---
 
 ## Roadmap
-- **2025 (v1):** Release Regular weight (Open Font License).  
-- **2026 (v2):** Expand to additional fonts from Odia letterpress era.
 
-## Usage
+* **2025 (v1):** Release **Chapakala19 Regular** (OFL v.1.1).
+* **2026 (v2):** Expand with additional weights/styles from Odia letterpress.
+<!--* **Future:** Add Chapakala20 (20th-century typeface revival).-->
 
-- Examples will be added once the first release is ready.
+---
 
 ## Contributing
 
-We welcome contributions in design, development, and testing.
+We welcome contributions in design, testing, and documentation.
 
-- Report issues or suggestions through GitHub Issues.
-- Pull requests for design refinements or documentation are encouraged.
-- Interim “scrap versions” will be shared for critique.
+* Report issues or suggestions via GitHub Issues.
+* Submit pull requests for design refinements or feature updates.
+* Feedback on interim “scrap versions” is encouraged.
+
+---
 
 ## License
-- Fonts: SIL Open Font License (OFL) v.1.1
-- Source files: Released under MPL and CC-BY-SA for maximum reuse.
+
+* Fonts: **SIL Open Font License (OFL) v.1.1**
+* Source files and documentation: **MPL** and **CC BY-SA**.
+
+---
 
 ## Credits
-- Lead design: Subhashish Panigrahi
-- Advisor: Yesha Goshar and Dr. Nasim Ali
-- Historical sources: Orissa Mission Press books (1838 onward)
+
+* Lead design: Subhashish Panigrahi
+* Advisors: Yesha Goshar and Dr. Nasim Ali
 
 ---
 
 ## Installation
+
 Clone or download this repository.
 
 ### For Desktop (system-wide)
-1. Download the `.ttf` or `.otf` file from the `fonts/` folder.  
-2. Install on your OS (double-click → Install).  
+
+1. Download the `.ttf` or `.otf` file from the `fonts/` folder of the subproject (e.g., `19/fonts/`).
+2. Install on your OS (double-click → Install).
 
 ### For Web
+
 ```html
 @font-face {
   font-family: 'Chapakala19';
-  src: url('Chapakala19-Regular.ttf') format('truetype');
+  src: url('19/fonts/Chapakala19-Regular.ttf') format('truetype');
 }
+```
