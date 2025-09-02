@@ -17,7 +17,28 @@ The original type was designed by Manohar Karmakar, son-in-law of Panchanan Karm
 
 ## Roadmap
 - **2025 (v1):** Release Regular weight (Open Font License).  
-- **2026 (v2):** Expand to additional fonts from Odia letterpress era.  
+- **2026 (v2):** Expand to additional fonts from Odia letterpress era.
+
+## Usage
+
+- Examples will be added once the first release is ready.
+
+## Contributing
+
+We welcome contributions in design, development, and testing.
+
+- Report issues or suggestions through GitHub Issues.
+- Pull requests for design refinements or documentation are encouraged.
+- Interim “scrap versions” will be shared for critique.
+
+## License
+- Fonts: SIL Open Font License (OFL) v.1.1
+- Source files: Released under MPL and CC-BY-SA for maximum reuse.
+
+## Credits
+- Lead design: Subhashish Panigrahi
+- Advisor: Yesha Goshar and Dr. Nasim Ali
+- Historical sources: Orissa Mission Press books (1838 onward)
 
 ---
 
