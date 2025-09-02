@@ -1,6 +1,6 @@
-# About
-
 _This page documents the background information of this project, design process, usage notes, roadmap and references. Created and maintained by Subhashish Panigrahi. Last updated 2 September 2025._
+
+# About
 
 Chapakala19 revives the typeface used in the Orissa Mission Press, Cuttack, from 1838.  
 The press was founded by Rev. Charles Lacey, who brought a hand-operated letterpress from Britain. Orissa Mission Press was the first modern printing press of Orissa (presently, Odisha). Chapakala19 revives a workhorse typeface designed by Manohar Karmakar, son-in-law of Panchanan Karmakar, both goldsmiths and type designers. Panchanan is credited with designing the first typefaces of most South Asian major writing systems, including the type used for the first Odia book, *New Testament*, printed at the Serampore Mission Press in 1811.  Manohar built on Panchanan’s work, adapting his knowledge from other South Asian scripts.
