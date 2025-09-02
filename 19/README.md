@@ -60,5 +60,5 @@ Can also be used in posters, graphics, and multimedia.
 
 # References
 
-- Orissa Mission Press publications, Cuttack (1838–1900s) (archived by Srujanika, hosted at Odia Bibhaba).
+- Orissa Mission Press publications, Cuttack (1838–1900s) (archived by Srujanika, hosted at [Odia Bibhaba](https://odiabibhaba.in/bahi/).
 - *New Testament in Odia* (Serampore, 1811).
