@@ -47,8 +47,8 @@ We welcome contributions in design, testing, and documentation.
 
 ## Credits
 
-* Lead design: Subhashish Panigrahi
-* Advisors: Yesha Goshar and Dr. Nasim Ali
+* Lead design for Chapakala19: Subhashish Panigrahi
+* Advisors for Chapakala19: Yesha Goshar and Dr. Nasim Ali
 
 ---
 
