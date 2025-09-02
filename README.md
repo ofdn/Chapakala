@@ -34,7 +34,6 @@ We welcome contributions in design, testing, and documentation.
 
 * Report issues or suggestions via GitHub Issues.
 * Submit pull requests for design refinements or feature updates.
-* Feedback on interim “scrap versions” is encouraged.
 
 ---
 
