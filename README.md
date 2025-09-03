@@ -46,8 +46,8 @@ We welcome contributions in design, testing, and documentation.
 
 ## Credits
 
-* Lead design for Chapakala19: Subhashish Panigrahi
-* Advisors for Chapakala19: Yesha Goshar and Dr. Nasim Ali
+* Lead design for Chapakala19: [Subhashish Panigrahi](https://github.com/psubhashish)
+* Advisors for Chapakala19: [Yesha Goshar](https://github.com/YeshaGoshar) (type design), Dr. [Nasim Ali](https://github.com/coldbreeze16) (font engineering and overall direction) and [Liang Hai](https://github.com/lianghai) (font engineering)
 
 ---
 
