@@ -1,5 +1,7 @@
 # Chapakala
 
+[![DOI](https://zenodo.org/badge/1048965624.svg)](https://doi.org/10.5281/zenodo.17051926)
+
 **Chapakala** (**ଛାପାକଳ**) (“printing press” in Odia) is an open-source typeface family that revives the letterpress-era typefaces used for printing in the Odia (formerly Oriya) script. Each subproject focuses on a distinct historical period of Odia type design.
 
 The first release, **Chapakala19**, revives the 19th-century workhorse used in Odia publications at the Orissa Mission Press. Future subfolders (e.g., `20/`) will expand this family with other revivals.
