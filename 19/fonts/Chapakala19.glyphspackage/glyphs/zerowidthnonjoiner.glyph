@@ -1,0 +1,11 @@
+{
+glyphname = zerowidthnonjoiner;
+layers = (
+{
+layerId = m01;
+width = 0;
+}
+);
+note = zerowidthnonjoiner;
+unicode = 8204;
+}

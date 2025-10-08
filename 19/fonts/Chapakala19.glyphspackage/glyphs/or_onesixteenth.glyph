@@ -1,0 +1,11 @@
+{
+glyphname = or_onesixteenth;
+layers = (
+{
+layerId = m01;
+width = 620;
+}
+);
+note = or_onesixteenth;
+unicode = 2933;
+}

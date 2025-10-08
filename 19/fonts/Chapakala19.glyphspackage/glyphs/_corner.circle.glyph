@@ -1,0 +1,36 @@
+{
+glyphname = _corner.circle;
+layers = (
+{
+anchors = (
+{
+name = left;
+pos = (-1,81);
+},
+{
+name = origin;
+pos = (-34,33);
+},
+{
+name = right;
+pos = (-3,1);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(-1,79,l),
+(-15,62,l),
+(-21,45,o),
+(-21,30,o),
+(-15,13,c),
+(-3,1,l)
+);
+}
+);
+width = 600;
+}
+);
+}

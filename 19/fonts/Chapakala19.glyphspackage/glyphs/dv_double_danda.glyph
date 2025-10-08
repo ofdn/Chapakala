@@ -1,0 +1,22 @@
+{
+glyphname = dv_double_danda;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = dv_danda;
+},
+{
+alignment = -1;
+pos = (206,0);
+ref = dv_danda;
+}
+);
+width = 914;
+}
+);
+note = dv_double_danda;
+unicode = 2405;
+}

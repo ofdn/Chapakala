@@ -1,0 +1,90 @@
+{
+glyphname = quotedblright;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(398,768,o),
+(376,800,o),
+(344,818,o),
+(322,818,qs),
+(291,818,o),
+(258,781,o),
+(258,751,qs),
+(258,730,o),
+(274,704,o),
+(299,691,o),
+(331,686,o),
+(349,686,qs),
+(357,686,o),
+(344,645,o),
+(312,589,o),
+(270,536,o),
+(250,524,q),
+(265,504,l),
+(284,512,o),
+(298,522,o),
+(306,528,qs),
+(348,563,o),
+(409,653,o),
+(409,711,qs),
+(409,730,o)
+);
+},
+{
+closed = 1;
+nodes = (
+(176,768,o),
+(154,800,o),
+(122,818,o),
+(100,818,qs),
+(69,818,o),
+(36,781,o),
+(36,751,qs),
+(36,730,o),
+(51,704,o),
+(77,691,o),
+(109,686,o),
+(127,686,qs),
+(135,686,o),
+(122,645,o),
+(90,589,o),
+(48,536,o),
+(28,524,q),
+(43,504,l),
+(62,512,o),
+(76,522,o),
+(84,528,qs),
+(126,563,o),
+(187,653,o),
+(187,711,qs),
+(187,730,o)
+);
+}
+);
+userData = {
+assembly = "SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+3
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+7
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+28
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+32
+MDAP[1]	/* MoveDirectAbsPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */";
+};
+width = 431;
+}
+);
+note = quotedblright;
+unicode = 8221;
+}

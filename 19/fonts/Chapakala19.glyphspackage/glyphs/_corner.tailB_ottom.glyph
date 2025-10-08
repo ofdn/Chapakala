@@ -1,0 +1,31 @@
+{
+export = 0;
+glyphname = _corner.tailBottom;
+layers = (
+{
+anchors = (
+{
+name = left;
+pos = (-101,82);
+},
+{
+name = right;
+pos = (19,21);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(-103,82,l),
+(-67,58,o),
+(-25,35,o),
+(15,21,c)
+);
+}
+);
+width = 729;
+}
+);
+}

@@ -1,0 +1,1377 @@
+{
+.appVersion = "3434";
+.formatVersion = 3;
+customParameters = (
+{
+name = vendorID;
+value = ofdn;
+},
+{
+name = panose;
+value = (
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0
+);
+},
+{
+name = unicodeRanges;
+value = (
+0,
+1,
+5,
+15,
+19,
+31,
+35,
+38,
+45
+);
+},
+{
+name = fsType;
+value = (
+);
+},
+{
+name = glyphOrder;
+value = (
+.notdef,
+.null,
+CR,
+space,
+dv_danda,
+dv_double_danda,
+or_candrabindu,
+or_anusvara,
+or_visarga,
+or_a,
+or_aa,
+or_i,
+or_ii,
+or_u,
+or_uu,
+or_ru,
+or_lu,
+or_e,
+or_ai,
+or_o,
+or_au,
+or_ka,
+or_kha,
+or_ga,
+or_gha,
+or_nga,
+or_ca,
+or_cha,
+or_ja,
+or_jha,
+or_nya,
+or_tta,
+or_ttha,
+or_dda,
+or_ddha,
+or_nna,
+or_ta,
+or_tha,
+or_da,
+or_dha,
+or_na,
+or_pa,
+or_pha,
+or_ba,
+or_bha,
+or_ma,
+or_ma.alt,
+or_ya,
+or_ra,
+or_la,
+or_lla,
+or_va,
+or_sha,
+or_ssa,
+or_sa,
+or_ha,
+or_nukta,
+or_avagraha,
+or_aakaar,
+or_ikaar,
+or_iikaar,
+or_ukaar,
+or_uukaar,
+or_rukaar,
+or_rrukaar,
+or_ekaar,
+or_aikaar,
+or_okaar,
+or_aukaar,
+or_halant,
+uni0B55,
+or_ailengthmk,
+or_aulengthmk,
+or_rra,
+or_rha,
+or_yya,
+or_rru,
+or_llu,
+or_lukaar,
+or_llukaar,
+or_zero,
+or_one,
+or_two,
+or_three,
+or_four,
+or_five,
+or_six,
+or_seven,
+or_eight,
+or_nine,
+or_isshar,
+or_wa,
+or_onequarter,
+or_onehalf,
+or_threequarters,
+or_onesixteenth,
+or_oneeighth,
+or_threesixteenths,
+zerowidthnonjoiner,
+zerowidthjoiner,
+dottedcircle,
+or_k_ka,
+or_k_tta,
+or_k_ta,
+or_k_ssa,
+or_ng_ka,
+or_ng_kha,
+or_ng_ga,
+or_ng_gha,
+or_c_ca,
+or_c_cha,
+or_j_ja,
+or_j_nya,
+or_ny_ca,
+or_ny_cha,
+or_ny_ja,
+or_ny_jha,
+or_tt_tta,
+or_nn_tta,
+or_nn_ttha,
+or_nn_dda,
+or_nn_ddha,
+or_nn_nna,
+or_t_ka,
+or_t_ta,
+or_t_na,
+or_t_pa,
+or_t_ma,
+or_t_sa,
+or_t_yya,
+or_t_va,
+or_d_da,
+or_d_dha,
+or_d_bha,
+or_d_va,
+or_dh_yya,
+or_n_ta,
+or_n_t_ra,
+or_n_tha,
+or_n_da,
+or_n_d_ikaar,
+or_n_dha,
+or_n_dh_ikaar,
+or_n_na,
+or_n_ma,
+or_p_ta,
+or_b_anusvara,
+or_b_da,
+or_b_ba,
+or_m_pa,
+or_m_pha,
+or_m_va,
+or_m_bha,
+or_m_ma,
+or_ll_pa,
+or_sh_ca,
+or_sh_cha,
+or_ss_ka,
+or_ss_tta,
+or_ss_ttha,
+or_ss_nna,
+or_ss_pa,
+or_ss_pha,
+or_s_ka,
+or_s_kha,
+or_s_ta,
+or_s_t_ra,
+or_s_tha,
+or_s_pa,
+or_s_pha,
+or_h_na,
+or_h_ma,
+or_h_la,
+or_h_va,
+or_l_yya,
+or_l_la,
+or_k_ra,
+or_t_ra,
+or_d_ra,
+or_b_ra,
+or_sh_r_ii,
+or_c_aakaar,
+or_ch_aakaar,
+or_bh_aakaar,
+or_r_aakaar,
+or_l_aakaar,
+or_j_ny_aakaar,
+or_t_t_aakaar,
+or_k_ikaar,
+or_c_ikaar,
+or_ch_ikaar,
+or_j_ikaar,
+or_dd_ikaar,
+or_rr_ikaar,
+or_t_ikaar,
+or_d_ikaar,
+or_n_ikaar,
+or_b_ikaar,
+or_bh_ikaar,
+or_r_ikaar,
+or_ll_ikaar,
+or_h_ikaar,
+or_l_ikaar,
+or_k_t_ikaar,
+or_n_t_ikaar,
+or_n_d_ikaar,
+or_n_dh_ikaar,
+or_th_ikaar,
+or_dh_ikaar,
+or_ny_c_ikaar,
+or_k_iikaar,
+or_ch_iikaar,
+or_j_iikaar,
+or_t_iikaar,
+or_d_iikaar,
+or_n_iikaar,
+or_b_iikaar,
+or_r_iikaar,
+or_h_iikaar,
+or_bh_iikaar,
+or_l_iikaar,
+or_k_ukaar,
+or_t_ukaar,
+or_n_ukaar,
+or_b_ukaar,
+or_bh_ukaar,
+or_h_ukaar,
+or_k_rukaar,
+or_t_rukaar,
+or_d_rukaar,
+or_b_rukaar,
+or_bh_rukaar,
+or_ikaar_below,
+or_ka_phalaa,
+or_kha_phalaa,
+or_ga_phalaa,
+or_gha_phalaa,
+or_nga_phalaa,
+or_ca_phalaa,
+or_cha_phalaa,
+or_ja_phalaa,
+or_jha_phalaa,
+or_tta_phalaa,
+or_ttha_phalaa,
+or_dda_phalaa,
+or_ddha_phalaa,
+or_nna_phalaa,
+or_ta_phalaa,
+or_tha_phalaa,
+or_tha_phalaa.alt,
+or_da_phalaa,
+or_dha_phalaa,
+or_na_phalaa,
+or_pa_phalaa,
+or_pha_phalaa,
+or_ba_phalaa,
+or_bha_phalaa,
+or_bha_phalaa.alt,
+or_ma_phalaa,
+or_ma_phalaa.alt,
+or_ya_phalaa,
+or_reph,
+or_ra_phalaa,
+or_la_phalaa,
+or_lla_phalaa,
+or_va_phalaa,
+or_sha_phalaa,
+or_ssa_phalaa,
+or_sa_phalaa,
+or_ha_phalaa,
+or_t_ra_phalaa,
+or_yya_phalaa,
+or_tt_tta.alt,
+or_dh_yya.alt,
+or_ll_ikaar.alt,
+or_l_ikaar.alt,
+or_n_iikaar.alt,
+or_b_iikaar.alt,
+or_ukaar.wide,
+or_ukaar.alt,
+or_uukaar.wide,
+or_uukaar.alt,
+or_reph.alt,
+or_ukaar.alt2,
+b_reph,
+B,
+C,
+D,
+E,
+F,
+G,
+H,
+I,
+J,
+K,
+L,
+M,
+N,
+O,
+P,
+Q,
+R,
+S,
+T,
+U,
+V,
+W,
+X,
+Y,
+Z,
+a,
+b,
+c,
+d,
+e,
+f,
+g,
+h,
+i,
+j,
+k,
+l,
+m,
+n,
+o,
+p,
+q,
+r,
+s,
+t,
+u,
+v,
+w,
+x,
+y,
+z,
+zero,
+one,
+two,
+three,
+four,
+five,
+six,
+seven,
+eight,
+nine,
+comma,
+period,
+exclam,
+quotedbl,
+numbersign,
+dollar,
+percent,
+ampersand,
+quotesingle,
+parenleft,
+parenright,
+asterisk,
+plus,
+hyphen,
+slash,
+colon,
+semicolon,
+less,
+greater,
+equal,
+question,
+at,
+bracketleft,
+bracketright,
+backslash,
+asciicircum,
+underscore,
+braceleft,
+braceright,
+bar,
+asciitilde,
+acute,
+dieresis,
+grave,
+circumflex,
+tilde,
+cedilla,
+macron,
+breve,
+dotaccent,
+ring,
+hungarumlaut,
+caron,
+ogonek,
+questiondown,
+exclamdown,
+perthousand,
+ellipsis,
+quotedblleft,
+quotedblright,
+quoteleft,
+quoteright,
+section,
+plusminus,
+quotesinglbase,
+quotedblbase,
+periodcentered,
+degree,
+registered,
+copyright,
+trademark,
+endash,
+emdash,
+divide,
+lessequal,
+greaterequal,
+A,
+or_kh_r_ii,
+or_nn_nna_ref,
+or_p_ukaar,
+or_k_ss_ii,
+or_yy_ukaar,
+or_iikaar_ref,
+or_t_k_ru,
+or_k_ss_i,
+or_ss_tt_ra,
+or_ss_tt_r_u
+);
+}
+);
+date = "2022-10-25 05:42:15 +0000";
+familyName = Chapakala19;
+featurePrefixes = (
+{
+code = "lookup SUB_11 {
+	sub or_tha_phalaa by or_tha_phalaa.alt;
+} SUB_11;
+lookup SUB_12 {
+	sub or_ukaar by or_ukaar.alt;
+} SUB_12;
+lookup SUB_13 {
+	sub or_ukaar by or_ukaar.wide;
+} SUB_13;
+lookup SUB_2 {
+	sub or_ka or_halant by or_ka_phalaa;
+	sub or_kha or_halant by or_kha_phalaa;
+	sub or_ga or_halant by or_ga_phalaa;
+	sub or_gha or_halant by or_gha_phalaa;
+	sub or_nga or_halant by or_nga_phalaa;
+	sub or_ca or_halant by or_ca_phalaa;
+	sub or_cha or_halant by or_cha_phalaa;
+	sub or_ja or_halant by or_ja_phalaa;
+	sub or_jha or_halant by or_jha_phalaa;
+	sub or_tta or_halant by or_tta_phalaa;
+	sub or_ttha or_halant by or_ttha_phalaa;
+	sub or_dda or_halant by or_dda_phalaa;
+	sub or_ddha or_halant by or_ddha_phalaa;
+	sub or_nna or_halant by or_nna_phalaa;
+	sub or_ta or_halant by or_ta_phalaa;
+	sub or_tha or_halant by or_tha_phalaa;
+	sub or_da or_halant by or_da_phalaa;
+	sub or_dha or_halant by or_dha_phalaa;
+	sub or_na or_halant by or_na_phalaa;
+	sub or_pa or_halant by or_pa_phalaa;
+	sub or_pha or_halant by or_pha_phalaa;
+	sub or_ba or_halant by or_va_phalaa;
+	sub or_bha or_halant by or_bha_phalaa;
+	sub or_ma or_halant by or_ma_phalaa;
+	sub or_ya or_halant by or_yya_phalaa;
+	sub or_ra or_halant by or_ra_phalaa;
+	sub or_la or_halant by or_la_phalaa;
+	sub or_lla or_halant by or_lla_phalaa;
+	sub or_va or_halant by or_va_phalaa;
+	sub or_sha or_halant by or_sha_phalaa;
+	sub or_ssa or_halant by or_ssa_phalaa;
+	sub or_sa or_halant by or_sa_phalaa;
+	sub or_ha or_halant by or_ha_phalaa;
+} SUB_2;
+";
+name = Prefix;
+},
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+
+languagesystem ory2 dflt;
+";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature akhn;
+feature rphf;
+feature blwf;
+feature pstf;
+feature pres;
+feature calt;
+";
+tag = aalt;
+},
+{
+code = "script ory2;
+language dflt;
+lookup SUB_0 {
+	sub or_ka or_halant or_ssa by or_k_ssa;
+	sub or_ja or_halant or_nya by or_j_nya;
+} SUB_0;
+";
+tag = akhn;
+},
+{
+code = "script ory2;
+language dflt;
+lookup SUB_1 {
+	sub or_ra or_halant by or_reph;
+} SUB_1;
+
+";
+tag = rphf;
+},
+{
+code = "script ory2;
+language dflt;
+lookup SUB_3 {
+	lookupflag MarkAttachmentType [];
+	sub or_halant or_ya by or_yya_phalaa;
+	sub or_halant or_yya by or_yya_phalaa;
+	sub or_halant or_ha by or_ha_phalaa;
+	sub or_halant or_sa by or_sa_phalaa;
+	sub or_halant or_ssa by or_ssa_phalaa;
+	sub or_halant or_sha by or_sha_phalaa;
+	sub or_halant or_wa by or_va_phalaa;
+	sub or_halant or_ba by or_va_phalaa;
+	sub or_halant or_va by or_va_phalaa;
+	sub or_halant or_lla by or_lla_phalaa;
+	sub or_halant or_la by or_la_phalaa;
+	sub or_halant or_ra by or_ra_phalaa;
+	sub or_halant or_ma by or_ma_phalaa;
+	sub or_halant or_bha by or_bha_phalaa;
+	sub or_halant or_pha by or_pha_phalaa;
+	sub or_halant or_pa by or_pa_phalaa;
+	sub or_halant or_na by or_na_phalaa;
+	sub or_halant or_dha by or_dha_phalaa;
+	sub or_halant or_da by or_da_phalaa;
+	sub or_halant or_tha by or_tha_phalaa;
+	sub or_halant or_ta by or_ta_phalaa;
+	sub or_halant or_nna by or_nna_phalaa;
+	sub or_halant or_ddha by or_ddha_phalaa;
+	sub or_halant or_dda by or_dda_phalaa;
+	sub or_halant or_ttha by or_ttha_phalaa;
+	sub or_halant or_tta by or_tta_phalaa;
+	sub or_halant or_jha by or_jha_phalaa;
+	sub or_halant or_ja by or_ja_phalaa;
+	sub or_halant or_cha by or_cha_phalaa;
+	sub or_halant or_ca by or_ca_phalaa;
+	sub or_halant or_nga by or_nga_phalaa;
+	sub or_halant or_gha by or_gha_phalaa;
+	sub or_halant or_ga by or_ga_phalaa;
+	sub or_halant or_kha by or_kha_phalaa;
+	sub or_halant or_ka by or_ka_phalaa;
+} SUB_3;
+";
+tag = blwf;
+},
+{
+code = "script ory2;
+language dflt;
+lookup SUB_4 {
+	sub or_ba or_anusvara by or_b_anusvara;
+} SUB_4;
+";
+tag = pstf;
+},
+{
+code = "script ory2;
+language dflt;
+lookup SUB_5 {
+	lookupflag MarkAttachmentType [];
+	sub or_na or_ta_phalaa or_ra_phalaa by or_n_t_ra;
+	sub or_sa or_ta_phalaa or_ra_phalaa by or_s_t_ra;
+} SUB_5;
+lookup SUB_6 {
+	lookupflag MarkAttachmentType [];
+	sub or_ka or_ra_phalaa by or_k_ra;
+	sub or_ka or_ta_phalaa by or_k_ta;
+	sub or_ka or_tta_phalaa by or_k_tta;
+	sub or_ka or_ka_phalaa by or_k_ka;
+	sub or_nga or_gha_phalaa by or_ng_gha;
+	sub or_nga or_ga_phalaa by or_ng_ga;
+	sub or_nga or_kha_phalaa by or_ng_kha;
+	sub or_nga or_ka_phalaa by or_ng_ka;
+	sub or_ca or_cha_phalaa by or_c_cha;
+	sub or_ca or_ca_phalaa by or_c_ca;
+	sub or_ja or_ja_phalaa by or_j_ja;
+	sub or_nya or_jha_phalaa by or_ny_jha;
+	sub or_nya or_ja_phalaa by or_ny_ja;
+	sub or_nya or_cha_phalaa by or_ny_cha;
+	sub or_nya or_ca_phalaa by or_ny_ca;
+	sub or_tta or_tta_phalaa by or_tt_tta;
+	sub or_nna or_nna_phalaa or_reph by or_nn_nna_reph;
+	sub or_nna or_nna_phalaa by or_nn_nna;
+	sub or_nna or_ddha_phalaa by or_nn_ddha; #ନ୍ଧ
+	sub or_nna or_dda_phalaa by or_nn_dda; #ନ୍ଦ
+	sub or_nna or_ttha_phalaa by or_nn_ttha;
+	sub or_nna or_tta_phalaa by or_nn_tta;
+	sub or_ta or_ka_phalaa or_rukaar by or_t_k_ru;
+	sub or_ta or_ra_phalaa by or_t_ra;
+	sub or_ta or_va_phalaa by or_t_va;
+	sub or_ta or_sa_phalaa or_na_phalaa by or_t_s_na;
+	sub or_ta or_sa_phalaa by or_t_sa;
+	sub or_ta or_ma_phalaa by or_t_ma;
+	sub or_ta or_pa_phalaa by or_t_pa;
+	sub or_ta or_na_phalaa by or_t_na;
+	sub or_ta or_ta_phalaa by or_t_ta;
+	sub or_ta or_ka_phalaa by or_t_ka;
+	sub or_da or_ra_phalaa by or_d_ra;
+	sub or_da or_va_phalaa by or_d_va;
+	sub or_da or_dha_phalaa by or_d_dha;
+	sub or_da or_bha_phalaa by or_d_bha;
+	sub or_da or_da_phalaa or_reph by or_d_da_reph; #ର୍ଦ୍ଦ
+	sub or_da or_dha_phalaa or_reph by or_d_dha_reph; #ର୍ଦ୍ଧ
+	sub or_da or_da_phalaa by or_d_da;
+	sub or_na or_ma_phalaa by or_n_ma;
+	sub or_na or_na_phalaa by or_n_na;
+	sub or_n_dha or_ikaar by or_n_dh_ikaar;
+	sub or_n_da or_ikaar by or_n_d_ikaar;
+	sub or_na or_dha_phalaa by or_n_dha;
+	sub or_na or_da_phalaa by or_n_da;
+	sub or_na or_tha_phalaa by or_n_tha;
+	sub or_na or_ta_phalaa by or_n_ta;
+	sub or_pa or_ta_phalaa by or_p_ta;
+	sub or_ba or_yya_phalaa by or_b_yya;
+	sub or_ba or_ra_phalaa by or_b_ra;
+	sub or_ba or_ba_phalaa by or_b_ba;
+	sub or_ba or_da_phalaa by or_b_da;
+	sub or_ma or_ma_phalaa by or_m_ma;
+	sub or_ma or_bha_phalaa by or_m_bha;
+	sub or_ma or_va_phalaa by or_m_va;
+	sub or_ma or_ba_phalaa by or_m_va;
+	sub or_ma or_pha_phalaa by or_m_pha;
+	sub or_ma or_pa_phalaa by or_m_pa;
+	sub or_la or_la_phalaa by or_l_la;
+	sub or_lla or_pa_phalaa by or_ll_pa;
+	sub or_sha or_ra_phalaa or_iikaar by or_sh_r_ii;
+	sub or_sha or_cha_phalaa by or_sh_cha;
+	sub or_sha or_ca_phalaa by or_sh_ca;
+	sub or_ssa or_tta_phalaa or_ra_phalaa or_ukaar by or_ss_tt_r_u;
+	sub or_ssa or_tta_phalaa or_ra_phalaa by or_ss_tt_ra;
+	sub or_ssa or_pha_phalaa by or_ss_pha;
+	sub or_ssa or_pa_phalaa by or_ss_pa;
+	sub or_ssa or_nna_phalaa by or_ss_nna;
+	sub or_ssa or_ttha_phalaa by or_ss_ttha;
+	sub or_ssa or_tta_phalaa by or_ss_tta;
+	sub or_ssa or_ka_phalaa by or_ss_ka;
+	sub or_sa or_pha_phalaa by or_s_pha;
+	sub or_sa or_pa_phalaa by or_s_pa;
+	sub or_sa or_tha_phalaa by or_s_tha;
+	sub or_sa or_ta_phalaa by or_s_ta;
+	sub or_sa or_kha_phalaa by or_s_kha;
+	sub or_sa or_ka_phalaa by or_s_ka;
+	sub or_ha or_va_phalaa by or_h_va;
+	sub or_ha or_la_phalaa by or_h_la;
+	sub or_ha or_ma_phalaa by or_h_ma;
+	sub or_ha or_na_phalaa by or_h_na;
+	sub or_halant or_ya by or_yya_phalaa;
+	sub or_ta or_yya_phalaa by or_t_yya;
+} SUB_6;
+
+lookup SUB_7 {
+	sub or_ka or_rukaar by or_k_rukaar;
+	sub or_ka or_ukaar by or_k_ukaar;
+	sub or_ka or_iikaar by or_k_iikaar;
+	sub or_ka or_ikaar by or_k_ikaar;
+	sub or_kha or_ra_phalaa or_iikaar by or_kh_r_ii;
+	sub or_ca or_ikaar by or_c_ikaar;
+	sub or_ca or_aakaar by or_c_aakaar;
+	sub or_cha or_iikaar by or_ch_iikaar;
+	sub or_cha or_ikaar by or_ch_ikaar;
+	sub or_cha or_aakaar by or_ch_aakaar;
+	sub or_ja or_iikaar by or_j_iikaar;
+	sub or_ja or_ikaar by or_j_ikaar;
+	sub or_dda or_ikaar by or_dd_ikaar;
+	sub or_ta or_rukaar by or_t_rukaar;
+	sub or_ta or_ukaar by or_t_ukaar;
+	sub or_ta or_iikaar by or_t_iikaar;
+	sub or_ta or_ikaar by or_t_ikaar;
+	sub or_tha or_ikaar by or_th_ikaar;
+	sub or_da or_rukaar by or_d_rukaar;
+	sub or_da or_iikaar by or_d_iikaar;
+	sub or_da or_ikaar by or_d_ikaar;
+	sub or_dha or_ikaar by or_dh_ikaar;
+	sub or_dha or_yya_phalaa by or_dh_yya;
+	sub or_na or_ukaar by or_n_ukaar;
+	sub or_na or_iikaar by or_n_iikaar;
+	sub or_na or_ikaar by or_n_ikaar;
+	sub or_pa or_ukaar by or_p_ukaar;
+	sub or_ba or_rukaar by or_b_rukaar;
+	sub or_ba or_ukaar by or_b_ukaar;
+	sub or_ba or_iikaar by or_b_iikaar;
+	sub or_ba or_ikaar by or_b_ikaar;
+	sub or_bha or_rukaar by or_bh_rukaar;
+	sub or_bha or_ukaar by or_bh_ukaar;
+	sub or_bha or_iikaar by or_bh_iikaar;
+	sub or_bha or_ikaar by or_bh_ikaar;
+	sub or_bha or_aakaar by or_bh_aakaar;
+	sub or_ra or_iikaar by or_r_iikaar;
+	sub or_ra or_ikaar by or_r_ikaar;
+	sub or_ra or_aakaar by or_r_aakaar;
+	sub or_la or_iikaar by or_l_iikaar;
+	sub or_la or_ikaar by or_l_ikaar;
+	sub or_la or_aakaar by or_l_aakaar;
+	sub or_la or_yya_phalaa by or_l_yya;
+	sub or_lla or_ikaar by or_ll_ikaar;
+	sub or_ha or_ukaar by or_h_ukaar;
+	sub or_ha or_iikaar by or_h_iikaar;
+	sub or_ha or_ikaar by or_h_ikaar;
+	sub or_rra or_ikaar by or_rr_ikaar;
+	sub or_yya or_ukaar by or_yy_ukaar;
+	sub or_k_ta or_ikaar by or_k_t_ikaar;
+	sub or_k_ssa or_ikaar by or_k_ss_i;
+	sub or_k_ssa or_iikaar by or_k_ss_ii;
+	sub or_j_nya or_aakaar by or_j_ny_aakaar;
+	sub or_ny_ca or_ikaar by or_ny_c_ikaar;
+	sub or_t_ta or_aakaar by or_t_t_aakaar;
+	sub or_n_ta or_ikaar by or_n_t_ikaar;
+	sub or_n_da or_ikaar by or_n_d_ikaar;
+	sub or_n_dha or_ikaar by or_n_dh_ikaar;
+} SUB_7;
+lookup SUB_8 {
+	sub or_ta or_tha_phalaa' lookup SUB_11;
+} SUB_8;
+lookup SUB_9 {
+	sub or_lla or_ukaar' lookup SUB_12;
+} SUB_9;
+lookup SUB_10 {
+	sub [or_ra or_yya] or_ukaar' lookup SUB_13;
+} SUB_10;
+";
+tag = pres;
+},
+{
+code = "lookup Initial {
+    # or_ai alternates
+    sub dv_danda space or_ai' by or_ai.alt;
+    sub space or_ai' by or_ai.alt;
+
+    # or_k_ssa alternates
+    sub dv_danda space or_k_ssa' by or_k_ssa.alt;
+    sub space or_k_ssa' by or_k_ssa.alt;
+} Initial;
+";
+tag = calt;
+}
+);
+fontMaster = (
+{
+customParameters = (
+{
+name = typoAscender;
+value = 830;
+},
+{
+name = typoDescender;
+value = -493;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1258;
+},
+{
+name = winDescent;
+value = 524;
+},
+{
+name = hheaAscender;
+value = 835;
+},
+{
+name = hheaDescender;
+value = -487;
+},
+{
+name = strikeoutPosition;
+value = 314;
+},
+{
+name = strikeoutSize;
+value = 52;
+},
+{
+name = "prep Table Assembly";
+value = "PUSHW[ ]	/* 1 value pushed */
+0
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 3 values pushed */
+1 3 2
+CALL[ ]	/* CallFunction */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 3 values pushed */
+4 2 2
+CALL[ ]	/* CallFunction */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 8 values pushed */
+4 97 77 60 43 26 0 8
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 8 values pushed */
+5 91 77 60 43 26 0 8
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 8 values pushed */
+1 97 77 60 43 26 0 8
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 8 values pushed */
+2 275 225 175 125 75 0 8
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 8 values pushed */
+3 91 77 60 43 26 0 8
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 3 values pushed */
+6 1 7
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 1 value pushed */
+0
+DUP[ ]	/* DuplicateTopStack */
+RCVT[ ]	/* ReadCVT */
+RDTG[ ]	/* RoundDownToGrid */
+ROUND[01]	/* Round */
+RTG[ ]	/* RoundToGrid */
+WCVTP[ ]	/* WriteCVTInPixels */";
+},
+{
+name = "fpgm Table Assembly";
+value = "PUSHW[ ]	/* 1 value pushed */
+0
+FDEF[ ]	/* FunctionDefinition */
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHW[ ]	/* 1 value pushed */
+9
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+PUSHB[ ]	/* 2 values pushed */
+1 1
+INSTCTRL[ ]	/* SetInstrExecControl */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+511
+SCANCTRL[ ]	/* ScanConversionControl */
+PUSHW[ ]	/* 1 value pushed */
+68
+SCVTCI[ ]	/* SetCVTCutIn */
+PUSHW[ ]	/* 2 values pushed */
+9 3
+SDS[ ]	/* SetDeltaShiftInGState */
+SDB[ ]	/* SetDeltaBaseInGState */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHW[ ]	/* 1 value pushed */
+1
+FDEF[ ]	/* FunctionDefinition */
+DUP[ ]	/* DuplicateTopStack */
+DUP[ ]	/* DuplicateTopStack */
+RCVT[ ]	/* ReadCVT */
+ROUND[01]	/* Round */
+WCVTP[ ]	/* WriteCVTInPixels */
+PUSHB[ ]	/* 1 value pushed */
+1
+ADD[ ]	/* Add */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHW[ ]	/* 1 value pushed */
+2
+FDEF[ ]	/* FunctionDefinition */
+PUSHW[ ]	/* 1 value pushed */
+1
+LOOPCALL[ ]	/* LoopAndCallFunction */
+POP[ ]	/* PopTopStack */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHW[ ]	/* 1 value pushed */
+3
+FDEF[ ]	/* FunctionDefinition */
+DUP[ ]	/* DuplicateTopStack */
+GC[0]	/* GetCoordOnPVector */
+PUSHB[ ]	/* 1 value pushed */
+3
+CINDEX[ ]	/* CopyXToTopStack */
+GC[0]	/* GetCoordOnPVector */
+GT[ ]	/* GreaterThan */
+IF[ ]	/* If */
+SWAP[ ]	/* SwapTopStack */
+EIF[ ]	/* EndIf */
+DUP[ ]	/* DuplicateTopStack */
+ROLL[ ]	/* RollTopThreeStack */
+DUP[ ]	/* DuplicateTopStack */
+ROLL[ ]	/* RollTopThreeStack */
+MD[0]	/* MeasureDistance */
+ABS[ ]	/* Absolute */
+ROLL[ ]	/* RollTopThreeStack */
+DUP[ ]	/* DuplicateTopStack */
+GC[0]	/* GetCoordOnPVector */
+DUP[ ]	/* DuplicateTopStack */
+ROUND[00]	/* Round */
+SUB[ ]	/* Subtract */
+ABS[ ]	/* Absolute */
+PUSHB[ ]	/* 1 value pushed */
+4
+CINDEX[ ]	/* CopyXToTopStack */
+GC[0]	/* GetCoordOnPVector */
+DUP[ ]	/* DuplicateTopStack */
+ROUND[00]	/* Round */
+SUB[ ]	/* Subtract */
+ABS[ ]	/* Absolute */
+GT[ ]	/* GreaterThan */
+IF[ ]	/* If */
+SWAP[ ]	/* SwapTopStack */
+NEG[ ]	/* Negate */
+ROLL[ ]	/* RollTopThreeStack */
+EIF[ ]	/* EndIf */
+MDAP[1]	/* MoveDirectAbsPt */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+0
+GTEQ[ ]	/* GreaterThanOrEqual */
+IF[ ]	/* If */
+ROUND[01]	/* Round */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+0
+EQ[ ]	/* Equal */
+IF[ ]	/* If */
+POP[ ]	/* PopTopStack */
+PUSHB[ ]	/* 1 value pushed */
+64
+EIF[ ]	/* EndIf */
+ELSE[ ]	/* Else */
+ROUND[01]	/* Round */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+0
+EQ[ ]	/* Equal */
+IF[ ]	/* If */
+POP[ ]	/* PopTopStack */
+PUSHB[ ]	/* 1 value pushed */
+64
+NEG[ ]	/* Negate */
+EIF[ ]	/* EndIf */
+EIF[ ]	/* EndIf */
+MSIRP[0]	/* MoveStackIndirRelPt */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHW[ ]	/* 1 value pushed */
+4
+FDEF[ ]	/* FunctionDefinition */
+DUP[ ]	/* DuplicateTopStack */
+GC[0]	/* GetCoordOnPVector */
+PUSHB[ ]	/* 1 value pushed */
+4
+CINDEX[ ]	/* CopyXToTopStack */
+GC[0]	/* GetCoordOnPVector */
+GT[ ]	/* GreaterThan */
+IF[ ]	/* If */
+SWAP[ ]	/* SwapTopStack */
+ROLL[ ]	/* RollTopThreeStack */
+EIF[ ]	/* EndIf */
+DUP[ ]	/* DuplicateTopStack */
+GC[0]	/* GetCoordOnPVector */
+DUP[ ]	/* DuplicateTopStack */
+ROUND[10]	/* Round */
+SUB[ ]	/* Subtract */
+ABS[ ]	/* Absolute */
+PUSHB[ ]	/* 1 value pushed */
+4
+CINDEX[ ]	/* CopyXToTopStack */
+GC[0]	/* GetCoordOnPVector */
+DUP[ ]	/* DuplicateTopStack */
+ROUND[10]	/* Round */
+SUB[ ]	/* Subtract */
+ABS[ ]	/* Absolute */
+GT[ ]	/* GreaterThan */
+IF[ ]	/* If */
+SWAP[ ]	/* SwapTopStack */
+ROLL[ ]	/* RollTopThreeStack */
+EIF[ ]	/* EndIf */
+MDAP[1]	/* MoveDirectAbsPt */
+MIRP[11101]	/* MoveIndirectRelPt */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHW[ ]	/* 1 value pushed */
+5
+FDEF[ ]	/* FunctionDefinition */
+MPPEM[ ]	/* MeasurePixelPerEm */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+3
+MINDEX[ ]	/* MoveXToTopStack */
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+LTEQ[ ]	/* LessThenOrEqual */
+IF[ ]	/* If */
+PUSHB[ ]	/* 1 value pushed */
+128
+WCVTP[ ]	/* WriteCVTInPixels */
+ELSE[ ]	/* Else */
+PUSHB[ ]	/* 1 value pushed */
+64
+WCVTP[ ]	/* WriteCVTInPixels */
+EIF[ ]	/* EndIf */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+DUP[ ]	/* DuplicateTopStack */
+RCVT[ ]	/* ReadCVT */
+PUSHB[ ]	/* 1 value pushed */
+192
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+PUSHB[ ]	/* 1 value pushed */
+192
+WCVTP[ ]	/* WriteCVTInPixels */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHW[ ]	/* 1 value pushed */
+6
+FDEF[ ]	/* FunctionDefinition */
+DUP[ ]	/* DuplicateTopStack */
+DUP[ ]	/* DuplicateTopStack */
+RCVT[ ]	/* ReadCVT */
+ROUND[01]	/* Round */
+WCVTP[ ]	/* WriteCVTInPixels */
+PUSHB[ ]	/* 1 value pushed */
+1
+ADD[ ]	/* Add */
+DUP[ ]	/* DuplicateTopStack */
+DUP[ ]	/* DuplicateTopStack */
+RCVT[ ]	/* ReadCVT */
+RDTG[ ]	/* RoundDownToGrid */
+ROUND[01]	/* Round */
+RTG[ ]	/* RoundToGrid */
+WCVTP[ ]	/* WriteCVTInPixels */
+PUSHB[ ]	/* 1 value pushed */
+1
+ADD[ ]	/* Add */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHW[ ]	/* 1 value pushed */
+7
+FDEF[ ]	/* FunctionDefinition */
+PUSHW[ ]	/* 1 value pushed */
+6
+LOOPCALL[ ]	/* LoopAndCallFunction */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHW[ ]	/* 1 value pushed */
+8
+FDEF[ ]	/* FunctionDefinition */
+MPPEM[ ]	/* MeasurePixelPerEm */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+3
+MINDEX[ ]	/* MoveXToTopStack */
+GTEQ[ ]	/* GreaterThanOrEqual */
+IF[ ]	/* If */
+PUSHB[ ]	/* 1 value pushed */
+64
+ELSE[ ]	/* Else */
+PUSHB[ ]	/* 1 value pushed */
+0
+EIF[ ]	/* EndIf */
+ROLL[ ]	/* RollTopThreeStack */
+ROLL[ ]	/* RollTopThreeStack */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+3
+MINDEX[ ]	/* MoveXToTopStack */
+GTEQ[ ]	/* GreaterThanOrEqual */
+IF[ ]	/* If */
+SWAP[ ]	/* SwapTopStack */
+POP[ ]	/* PopTopStack */
+PUSHB[ ]	/* 1 value pushed */
+128
+ROLL[ ]	/* RollTopThreeStack */
+ROLL[ ]	/* RollTopThreeStack */
+ELSE[ ]	/* Else */
+ROLL[ ]	/* RollTopThreeStack */
+SWAP[ ]	/* SwapTopStack */
+EIF[ ]	/* EndIf */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+3
+MINDEX[ ]	/* MoveXToTopStack */
+GTEQ[ ]	/* GreaterThanOrEqual */
+IF[ ]	/* If */
+SWAP[ ]	/* SwapTopStack */
+POP[ ]	/* PopTopStack */
+PUSHW[ ]	/* 1 value pushed */
+192
+ROLL[ ]	/* RollTopThreeStack */
+ROLL[ ]	/* RollTopThreeStack */
+ELSE[ ]	/* Else */
+ROLL[ ]	/* RollTopThreeStack */
+SWAP[ ]	/* SwapTopStack */
+EIF[ ]	/* EndIf */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+3
+MINDEX[ ]	/* MoveXToTopStack */
+GTEQ[ ]	/* GreaterThanOrEqual */
+IF[ ]	/* If */
+SWAP[ ]	/* SwapTopStack */
+POP[ ]	/* PopTopStack */
+PUSHW[ ]	/* 1 value pushed */
+256
+ROLL[ ]	/* RollTopThreeStack */
+ROLL[ ]	/* RollTopThreeStack */
+ELSE[ ]	/* Else */
+ROLL[ ]	/* RollTopThreeStack */
+SWAP[ ]	/* SwapTopStack */
+EIF[ ]	/* EndIf */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+3
+MINDEX[ ]	/* MoveXToTopStack */
+GTEQ[ ]	/* GreaterThanOrEqual */
+IF[ ]	/* If */
+SWAP[ ]	/* SwapTopStack */
+POP[ ]	/* PopTopStack */
+PUSHW[ ]	/* 1 value pushed */
+320
+ROLL[ ]	/* RollTopThreeStack */
+ROLL[ ]	/* RollTopThreeStack */
+ELSE[ ]	/* Else */
+ROLL[ ]	/* RollTopThreeStack */
+SWAP[ ]	/* SwapTopStack */
+EIF[ ]	/* EndIf */
+DUP[ ]	/* DuplicateTopStack */
+PUSHW[ ]	/* 1 value pushed */
+3
+MINDEX[ ]	/* MoveXToTopStack */
+GTEQ[ ]	/* GreaterThanOrEqual */
+IF[ ]	/* If */
+PUSHB[ ]	/* 1 value pushed */
+3
+CINDEX[ ]	/* CopyXToTopStack */
+RCVT[ ]	/* ReadCVT */
+PUSHW[ ]	/* 1 value pushed */
+384
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+SWAP[ ]	/* SwapTopStack */
+POP[ ]	/* PopTopStack */
+PUSHW[ ]	/* 1 value pushed */
+384
+SWAP[ ]	/* SwapTopStack */
+POP[ ]	/* PopTopStack */
+ELSE[ ]	/* Else */
+PUSHB[ ]	/* 1 value pushed */
+3
+CINDEX[ ]	/* CopyXToTopStack */
+RCVT[ ]	/* ReadCVT */
+SWAP[ ]	/* SwapTopStack */
+POP[ ]	/* PopTopStack */
+SWAP[ ]	/* SwapTopStack */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+WCVTP[ ]	/* WriteCVTInPixels */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHW[ ]	/* 1 value pushed */
+9
+FDEF[ ]	/* FunctionDefinition */
+MPPEM[ ]	/* MeasurePixelPerEm */
+GTEQ[ ]	/* GreaterThanOrEqual */
+IF[ ]	/* If */
+RCVT[ ]	/* ReadCVT */
+WCVTP[ ]	/* WriteCVTInPixels */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */";
+},
+{
+name = "CVT Table";
+value = "(
+    20,
+    57,
+    20,
+    61,
+    57,
+    61,
+    0,
+    20
+)";
+}
+);
+guides = (
+{
+locked = 1;
+pos = (421,672);
+},
+{
+locked = 1;
+pos = (473,646);
+},
+{
+locked = 1;
+pos = (434,17);
+},
+{
+locked = 1;
+pos = (814,-137);
+}
+);
+id = m01;
+metricValues = (
+{
+pos = 830;
+},
+{
+pos = 734;
+},
+{
+pos = 524;
+},
+{
+},
+{
+pos = -493;
+},
+{
+pos = 367;
+}
+);
+name = Regular;
+userData = {
+GSCornerRadius = 30;
+GSOffsetCapStyle = 3;
+GSOffsetHorizontal = 35;
+GSOffsetKeepCompatible = 1;
+GSOffsetMakeStroke = 1;
+GSOffsetVertical = 28;
+};
+}
+);
+instances = (
+{
+instanceInterpolations = {
+m01 = 1;
+};
+name = Regular;
+properties = (
+{
+key = postscriptFontName;
+value = Chapakala19Regular;
+},
+{
+key = postscriptFullNames;
+values = (
+{
+language = ENG;
+value = "Chapakala19 Regular";
+}
+);
+},
+{
+key = styleNames;
+values = (
+{
+language = ENG;
+value = Regular;
+}
+);
+}
+);
+}
+);
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+name = Midrib;
+}
+);
+properties = (
+{
+key = copyrights;
+values = (
+{
+language = ENG;
+value = "2024 (c) Subhashish Panigrahi";
+}
+);
+},
+{
+key = familyNames;
+values = (
+{
+language = ENG;
+value = Chapakala19;
+}
+);
+}
+);
+settings = {
+disablesAutomaticAlignment = 1;
+disablesNiceNames = 1;
+};
+unitsPerEm = 1048;
+userData = {
+GSDimensionPlugin.Dimensions = {
+m01 = {
+};
+};
+};
+versionMajor = 1;
+versionMinor = 1;
+}

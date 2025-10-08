@@ -1,0 +1,27 @@
+{
+glyphname = or_eight;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(73,677,l),
+(64,673,l),
+(42,665,l),
+(42,12,l),
+(134,12,l),
+(134,623,l),
+(716,623,l),
+(716,681,l),
+(84,681,l)
+);
+}
+);
+width = 744;
+}
+);
+note = or_eight;
+unicode = 2926;
+}
