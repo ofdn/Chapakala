@@ -1,5 +1,5 @@
 {
-.appVersion = "3434";
+.appVersion = "3436";
 .formatVersion = 3;
 customParameters = (
 {
@@ -467,6 +467,10 @@ or_k_ss_i,
 or_ss_tt_ra,
 or_ss_tt_r_u
 );
+},
+{
+name = "Write DisplayStrings";
+value = 0;
 }
 );
 date = "2022-10-25 05:42:15 +0000";
