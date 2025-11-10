@@ -489,7 +489,21 @@ name = Languagesystems;
 );
 features = (
 {
-code = "sub or_ka or_halant or_ssa by or_k_ssa;
+code = "# Relevant glyph order at this point:
+#
+# - <base>
+# - nukta
+# - ikaar/ailengthmk
+# - candrabindu
+# - halant
+# - <base>
+
+lookupflag UseMarkFilteringSet [or_nukta or_halant]; # Ignore ikaar, ailengthmk, candrabindu
+
+sub or_dda or_nukta by or_rra;
+sub or_ddha or_nukta by or_rha;
+
+sub or_ka or_halant or_ssa by or_k_ssa;
 sub or_ja or_halant or_nya by or_j_nya;
 ";
 tag = akhn;
@@ -524,9 +538,9 @@ sub or_halant or_pha by or_pha_phalaa;
 sub or_halant or_bha by or_bha_phalaa;
 sub or_halant or_ma by or_ma_phalaa;
 sub or_halant or_ra by or_ra_phalaa;
-sub or_halant or_la by or_la_phalaa;
 sub or_halant or_lla by or_lla_phalaa;
-sub or_halant [or_va or_ba or_wa] by or_va_phalaa; # Neutralized
+sub or_halant or_la by or_la_phalaa;
+sub or_halant [or_ba or_va or_wa] by or_va_phalaa; # Neutralized
 sub or_halant or_sha by or_sha_phalaa;
 sub or_halant or_ssa by or_ssa_phalaa;
 sub or_halant or_sa by or_sa_phalaa;
@@ -535,163 +549,226 @@ sub or_halant or_ha by or_ha_phalaa;
 tag = blwf;
 },
 {
-code = "sub or_halant [or_yya or_ya] by or_yya_phalaa; # Neutralized
+code = "sub or_halant [or_ya or_yya] by or_yya_phalaa; # Neutralized
 ";
 tag = pstf;
 },
 {
-code = "lookupflag MarkAttachmentType [];
+code = "# Relevant glyph order at this point:
+#
+# - <base>
+# - nukta
+# - ikaar/ailengthmk
+# - reph
+# - candrabindu
+# - <below-base phalaa>
+# - ukaar/...
+# - <post-base phalaa>
 
-sub or_na or_ta_phalaa or_ra_phalaa by or_n_t_ra;
-sub or_sa or_ta_phalaa or_ra_phalaa by or_s_t_ra;
+lookupflag UseMarkFilteringSet [or_nukta]; # Ignore ikaar, ailengthmk, reph, candrabindu, ukaar, ...
 
-sub or_ka or_ra_phalaa by or_k_ra;
-sub or_ka or_ta_phalaa by or_k_ta;
-sub or_ka or_tta_phalaa by or_k_tta;
 sub or_ka or_ka_phalaa by or_k_ka;
-sub or_nga or_gha_phalaa by or_ng_gha;
-sub or_nga or_ga_phalaa by or_ng_ga;
-sub or_nga or_kha_phalaa by or_ng_kha;
+sub or_ka or_tta_phalaa by or_k_tta;
+sub or_ka or_ta_phalaa by or_k_ta;
+sub or_ka or_ra_phalaa by or_k_ra;
+
 sub or_nga or_ka_phalaa by or_ng_ka;
-sub or_ca or_cha_phalaa by or_c_cha;
+sub or_nga or_kha_phalaa by or_ng_kha;
+sub or_nga or_ga_phalaa by or_ng_ga;
+sub or_nga or_gha_phalaa by or_ng_gha;
+
 sub or_ca or_ca_phalaa by or_c_ca;
+sub or_ca or_cha_phalaa by or_c_cha;
+
 sub or_ja or_ja_phalaa by or_j_ja;
-sub or_nya or_jha_phalaa by or_ny_jha;
-sub or_nya or_ja_phalaa by or_ny_ja;
-sub or_nya or_cha_phalaa by or_ny_cha;
+
 sub or_nya or_ca_phalaa by or_ny_ca;
+sub or_nya or_cha_phalaa by or_ny_cha;
+sub or_nya or_ja_phalaa by or_ny_ja;
+sub or_nya or_jha_phalaa by or_ny_jha;
+
 sub or_tta or_tta_phalaa by or_tt_tta;
-sub or_nna or_nna_phalaa or_reph by or_nn_nna_reph;
-sub or_nna or_nna_phalaa by or_nn_nna;
-sub or_nna or_ddha_phalaa by or_nn_ddha; # ନ୍ଧ
-sub or_nna or_dda_phalaa by or_nn_dda; # ନ୍ଦ
-sub or_nna or_ttha_phalaa by or_nn_ttha;
+
 sub or_nna or_tta_phalaa by or_nn_tta;
-sub or_ta or_ka_phalaa or_rukaar by or_t_k_ru;
+sub or_nna or_ttha_phalaa by or_nn_ttha;
+sub or_nna or_dda_phalaa by or_nn_dda; 
+sub or_nna or_ddha_phalaa by or_nn_ddha;
+sub or_nna or_nna_phalaa by or_nn_nna;
+
+sub or_ta or_ka_phalaa by or_t_ka;
+sub or_ta or_ta_phalaa by or_t_ta;
+sub or_ta or_na_phalaa by or_t_na;
+sub or_ta or_pa_phalaa by or_t_pa;
+sub or_ta or_ma_phalaa by or_t_ma;
+sub or_ta or_yya_phalaa by or_t_yya;
 sub or_ta or_ra_phalaa by or_t_ra;
 sub or_ta or_va_phalaa by or_t_va;
-sub or_ta or_sa_phalaa or_na_phalaa by or_t_s_na;
 sub or_ta or_sa_phalaa by or_t_sa;
-sub or_ta or_ma_phalaa by or_t_ma;
-sub or_ta or_pa_phalaa by or_t_pa;
-sub or_ta or_na_phalaa by or_t_na;
-sub or_ta or_ta_phalaa by or_t_ta;
-sub or_ta or_ka_phalaa by or_t_ka;
-sub or_da or_ra_phalaa by or_d_ra;
-sub or_da or_va_phalaa by or_d_va;
+sub or_ta or_sa_phalaa or_na_phalaa by or_t_s_na;
+
+sub or_da or_da_phalaa by or_d_da;
 sub or_da or_dha_phalaa by or_d_dha;
 sub or_da or_bha_phalaa by or_d_bha;
-sub or_da or_da_phalaa or_reph by or_d_da_reph; # ର୍ଦ୍ଦ
-sub or_da or_dha_phalaa or_reph by or_d_dha_reph; # ର୍ଦ୍ଧ
-sub or_da or_da_phalaa by or_d_da;
-sub or_na or_ma_phalaa by or_n_ma;
-sub or_na or_na_phalaa by or_n_na;
-sub or_n_dha or_ikaar by or_n_dh_ikaar;
-sub or_n_da or_ikaar by or_n_d_ikaar;
-sub or_na or_dha_phalaa by or_n_dha;
-sub or_na or_da_phalaa by or_n_da;
-sub or_na or_tha_phalaa by or_n_tha;
+sub or_da or_ra_phalaa by or_d_ra;
+sub or_da or_va_phalaa by or_d_va;
+
+sub or_dha or_yya_phalaa by or_dh_yya;
+
 sub or_na or_ta_phalaa by or_n_ta;
+sub or_na or_ta_phalaa or_ra_phalaa by or_n_t_ra;
+sub or_na or_tha_phalaa by or_n_tha;
+sub or_na or_da_phalaa by or_n_da;
+sub or_na or_dha_phalaa by or_n_dha;
+sub or_na or_na_phalaa by or_n_na;
+sub or_na or_ma_phalaa by or_n_ma;
+
 sub or_pa or_ta_phalaa by or_p_ta;
+
+sub or_ba or_da_phalaa by or_b_da;
 sub or_ba or_yya_phalaa by or_b_yya;
 sub or_ba or_ra_phalaa by or_b_ra;
-sub or_ba or_ba_phalaa by or_b_ba;
-sub or_ba or_da_phalaa by or_b_da;
-sub or_ma or_ma_phalaa by or_m_ma;
-sub or_ma or_bha_phalaa by or_m_bha;
-sub or_ma or_va_phalaa by or_m_va;
-sub or_ma or_ba_phalaa by or_m_va;
-sub or_ma or_pha_phalaa by or_m_pha;
+sub or_ba or_va_phalaa by or_b_ba;
+
 sub or_ma or_pa_phalaa by or_m_pa;
-sub or_la or_la_phalaa by or_l_la;
+sub or_ma or_pha_phalaa by or_m_pha;
+sub or_ma or_bha_phalaa by or_m_bha;
+sub or_ma or_ma_phalaa by or_m_ma;
+sub or_ma or_va_phalaa by or_m_va;
+
 sub or_lla or_pa_phalaa by or_ll_pa;
-sub or_sha or_ra_phalaa or_iikaar by or_sh_r_ii;
-sub or_sha or_cha_phalaa by or_sh_cha;
+
+sub or_la or_yya_phalaa by or_l_yya;
+sub or_la or_la_phalaa by or_l_la;
+
 sub or_sha or_ca_phalaa by or_sh_ca;
-sub or_ssa or_tta_phalaa or_ra_phalaa or_ukaar by or_ss_tt_r_u;
-sub or_ssa or_tta_phalaa or_ra_phalaa by or_ss_tt_ra;
-sub or_ssa or_pha_phalaa by or_ss_pha;
-sub or_ssa or_pa_phalaa by or_ss_pa;
-sub or_ssa or_nna_phalaa by or_ss_nna;
-sub or_ssa or_ttha_phalaa by or_ss_ttha;
-sub or_ssa or_tta_phalaa by or_ss_tta;
+sub or_sha or_cha_phalaa by or_sh_cha;
+
 sub or_ssa or_ka_phalaa by or_ss_ka;
-sub or_sa or_pha_phalaa by or_s_pha;
-sub or_sa or_pa_phalaa by or_s_pa;
-sub or_sa or_tha_phalaa by or_s_tha;
-sub or_sa or_ta_phalaa by or_s_ta;
-sub or_sa or_kha_phalaa by or_s_kha;
+sub or_ssa or_tta_phalaa by or_ss_tta;
+sub or_ssa or_tta_phalaa or_ra_phalaa by or_ss_tt_ra;
+sub or_ssa or_ttha_phalaa by or_ss_ttha;
+sub or_ssa or_nna_phalaa by or_ss_nna;
+sub or_ssa or_pa_phalaa by or_ss_pa;
+sub or_ssa or_pha_phalaa by or_ss_pha;
+
 sub or_sa or_ka_phalaa by or_s_ka;
-sub or_ha or_va_phalaa by or_h_va;
-sub or_ha or_la_phalaa by or_h_la;
-sub or_ha or_ma_phalaa by or_h_ma;
+sub or_sa or_kha_phalaa by or_s_kha;
+sub or_sa or_ta_phalaa by or_s_ta;
+sub or_sa or_ta_phalaa or_ra_phalaa by or_s_t_ra;
+sub or_sa or_tha_phalaa by or_s_tha;
+sub or_sa or_pa_phalaa by or_s_pa;
+sub or_sa or_pha_phalaa by or_s_pha;
+
 sub or_ha or_na_phalaa by or_h_na;
-sub or_halant or_ya by or_yya_phalaa;
-sub or_ta or_yya_phalaa by or_t_yya;
+sub or_ha or_ma_phalaa by or_h_ma;
+sub or_ha or_la_phalaa by or_h_la;
+sub or_ha or_va_phalaa by or_h_va;
 ";
 tag = pres;
 },
 {
-code = "sub or_ba or_anusvara by or_b_anusvara;
+code = "# Relevant glyph order at this point:
+#
+# - <base>
+# - nukta
+# - ikaar/ailengthmk
+# - reph
+# - candrabindu
+# - <below-base phalaa>
+# - ukaar/...
+# - <post-base phalaa>
+# - aakaar/...
+# - anusvara
 
-sub or_ka or_rukaar by or_k_rukaar;
-sub or_ka or_ukaar by or_k_ukaar;
-sub or_ka or_iikaar by or_k_iikaar;
 sub or_ka or_ikaar by or_k_ikaar;
-sub or_kha or_ra_phalaa or_iikaar by or_kh_r_ii;
-sub or_ca or_ikaar by or_c_ikaar;
+sub or_ka or_iikaar by or_k_iikaar;
+sub or_ka or_ukaar by or_k_ukaar;
+sub or_ka or_rukaar by or_k_rukaar;
+
+sub or_kha or_ra_phalaa or_iikaar by or_kh_r_ii; # kh_ra not available
+
 sub or_ca or_aakaar by or_c_aakaar;
-sub or_cha or_iikaar by or_ch_iikaar;
-sub or_cha or_ikaar by or_ch_ikaar;
+sub or_ca or_ikaar by or_c_ikaar;
+
 sub or_cha or_aakaar by or_ch_aakaar;
-sub or_ja or_iikaar by or_j_iikaar;
+sub or_cha or_ikaar by or_ch_ikaar;
+sub or_cha or_iikaar by or_ch_iikaar;
+
 sub or_ja or_ikaar by or_j_ikaar;
+sub or_ja or_iikaar by or_j_iikaar;
+
 sub or_dda or_ikaar by or_dd_ikaar;
-sub or_ta or_rukaar by or_t_rukaar;
-sub or_ta or_ukaar by or_t_ukaar;
-sub or_ta or_iikaar by or_t_iikaar;
+
 sub or_ta or_ikaar by or_t_ikaar;
+sub or_ta or_iikaar by or_t_iikaar;
+sub or_ta or_ukaar by or_t_ukaar;
+sub or_ta or_rukaar by or_t_rukaar;
+
 sub or_tha or_ikaar by or_th_ikaar;
-sub or_da or_rukaar by or_d_rukaar;
-sub or_da or_iikaar by or_d_iikaar;
+
 sub or_da or_ikaar by or_d_ikaar;
+sub or_da or_iikaar by or_d_iikaar;
+sub or_da or_rukaar by or_d_rukaar;
+
 sub or_dha or_ikaar by or_dh_ikaar;
-sub or_dha or_yya_phalaa by or_dh_yya;
-sub or_na or_ukaar by or_n_ukaar;
-sub or_na or_iikaar by or_n_iikaar;
+
 sub or_na or_ikaar by or_n_ikaar;
+sub or_na or_iikaar by or_n_iikaar;
+sub or_na or_ukaar by or_n_ukaar;
+
 sub or_pa or_ukaar by or_p_ukaar;
-sub or_ba or_rukaar by or_b_rukaar;
-sub or_ba or_ukaar by or_b_ukaar;
-sub or_ba or_iikaar by or_b_iikaar;
+
 sub or_ba or_ikaar by or_b_ikaar;
-sub or_bha or_rukaar by or_bh_rukaar;
-sub or_bha or_ukaar by or_bh_ukaar;
-sub or_bha or_iikaar by or_bh_iikaar;
-sub or_bha or_ikaar by or_bh_ikaar;
+sub or_ba or_iikaar by or_b_iikaar;
+sub or_ba or_ukaar by or_b_ukaar;
+sub or_ba or_rukaar by or_b_rukaar;
+sub or_ba or_anusvara by or_b_anusvara;
+
 sub or_bha or_aakaar by or_bh_aakaar;
-sub or_ra or_iikaar by or_r_iikaar;
-sub or_ra or_ikaar by or_r_ikaar;
-sub or_ra or_aakaar by or_r_aakaar;
-sub or_la or_iikaar by or_l_iikaar;
-sub or_la or_ikaar by or_l_ikaar;
-sub or_la or_aakaar by or_l_aakaar;
-sub or_la or_yya_phalaa by or_l_yya;
-sub or_lla or_ikaar by or_ll_ikaar;
-sub or_ha or_ukaar by or_h_ukaar;
-sub or_ha or_iikaar by or_h_iikaar;
-sub or_ha or_ikaar by or_h_ikaar;
-sub or_rra or_ikaar by or_rr_ikaar;
+sub or_bha or_ikaar by or_bh_ikaar;
+sub or_bha or_iikaar by or_bh_iikaar;
+sub or_bha or_ukaar by or_bh_ukaar;
+sub or_bha or_rukaar by or_bh_rukaar;
+
 sub or_yya or_ukaar by or_yy_ukaar;
-sub or_k_ta or_ikaar by or_k_t_ikaar;
+
+sub or_ra or_aakaar by or_r_aakaar;
+sub or_ra or_ikaar by or_r_ikaar;
+sub or_ra or_iikaar by or_r_iikaar;
+
+sub or_lla or_ikaar by or_ll_ikaar;
+
+sub or_la or_aakaar by or_l_aakaar;
+sub or_la or_ikaar by or_l_ikaar;
+sub or_la or_iikaar by or_l_iikaar;
+
+sub or_sha or_ra_phalaa or_iikaar by or_sh_r_ii; # sh_ra not available
+
+sub or_ha or_ikaar by or_h_ikaar;
+sub or_ha or_iikaar by or_h_iikaar;
+sub or_ha or_ukaar by or_h_ukaar;
+
+# Bases formed in akhn:
+
+sub or_rra or_ikaar by or_rr_ikaar;
+
 sub or_k_ssa or_ikaar by or_k_ss_i;
 sub or_k_ssa or_iikaar by or_k_ss_ii;
 sub or_j_nya or_aakaar by or_j_ny_aakaar;
+
+# Bases formed in pres:
+
+sub or_k_ta or_ikaar by or_k_t_ikaar;
 sub or_ny_ca or_ikaar by or_ny_c_ikaar;
+sub or_nn_nna or_reph by or_nn_nna_reph;
+sub or_t_ka or_rukaar by or_t_k_ru;
 sub or_t_ta or_aakaar by or_t_t_aakaar;
+sub or_d_da or_reph by or_d_da_reph;
+sub or_d_dha or_reph by or_d_dha_reph;
 sub or_n_ta or_ikaar by or_n_t_ikaar;
 sub or_n_da or_ikaar by or_n_d_ikaar;
 sub or_n_dha or_ikaar by or_n_dh_ikaar;
+sub or_ss_tt_ra or_ukaar by or_ss_tt_r_u;
 ";
 tag = pres;
 },

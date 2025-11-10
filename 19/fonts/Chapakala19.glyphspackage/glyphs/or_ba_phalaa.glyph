@@ -1,4 +1,5 @@
 {
+export = 0;
 glyphname = or_ba_phalaa;
 layers = (
 {
