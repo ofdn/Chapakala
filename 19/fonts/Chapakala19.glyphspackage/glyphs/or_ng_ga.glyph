@@ -12,11 +12,6 @@ shapes = (
 {
 closed = 1;
 nodes = (
-);
-},
-{
-closed = 1;
-nodes = (
 (609,17,l),
 (668,17,l),
 (668,646,l),

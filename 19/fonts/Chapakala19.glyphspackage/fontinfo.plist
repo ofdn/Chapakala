@@ -1336,6 +1336,7 @@ type = descender;
 name = Midrib;
 }
 );
+note = "phala - 32x25; regular - 35x28";
 properties = (
 {
 key = copyrights;
