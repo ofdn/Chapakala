@@ -36,7 +36,7 @@ nodes = (
 );
 };
 backgroundImage = {
-imagePath = "../../../kha1.png";
+imagePath = "../../../../kha1.png";
 };
 layerId = m01;
 shapes = (

@@ -3,7 +3,7 @@ glyphname = "ha-oriya";
 layers = (
 {
 backgroundImage = {
-imagePath = "../../../ha.png";
+imagePath = "../../../../ha.png";
 };
 layerId = m01;
 shapes = (

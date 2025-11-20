@@ -3,7 +3,7 @@ glyphname = "halant-oriya";
 layers = (
 {
 backgroundImage = {
-imagePath = "../../../halant-virama.png";
+imagePath = "../../../../halant-virama.png";
 };
 layerId = m01;
 shapes = (

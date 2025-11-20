@@ -3,7 +3,7 @@ glyphname = "kSsa-oriya";
 layers = (
 {
 backgroundImage = {
-imagePath = "../../../ksha.png";
+imagePath = "../../../../ksha.png";
 pos = (-286,-296);
 scale = (3.4062,3.4062);
 };

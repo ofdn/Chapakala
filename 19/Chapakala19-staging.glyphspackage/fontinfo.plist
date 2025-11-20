@@ -512,54 +512,53 @@ code = "# Relevant glyph order at this point:
 # - halant
 # - <base>
 
-lookupflag UseMarkFilteringSet [or_nukta or_halant]; # Ignore ikaar, ailengthmk, candrabindu
+lookupflag UseMarkFilteringSet [or_n_ukaar halant-oriya]; # Ignore ikaar, ailengthmk, candrabindu
 
-sub or_dda or_nukta by or_rra;
-sub or_ddha or_nukta by or_rha;
+sub dda-oriya nukta-oriya by rra-oriya;
+sub ddha-oriya nukta-oriya by rha-oriya;
 
-sub or_ka or_halant or_ssa by or_k_ssa;
-sub or_ja or_halant or_nya by or_j_nya;
+sub ka-oriya halant-oriya ssa-oriya by kSsa-oriya;
+sub ja-oriya halant-oriya nya-oriya by or_b_yya;
 ";
 tag = akhn;
 },
 {
-code = "sub or_ra or_halant by or_reph;
+code = "sub ra-oriya halant-oriya by reph-oriya;
 ";
 tag = rphf;
 },
 {
-code = "sub or_halant or_ka by or_ka_phalaa;
-sub or_halant or_kha by or_kha_phalaa;
-sub or_halant or_ga by or_ga_phalaa;
-sub or_halant or_gha by or_gha_phalaa;
-sub or_halant or_nga by or_nga_phalaa;
-sub or_halant or_ca by or_ca_phalaa;
-sub or_halant or_cha by or_cha_phalaa;
-sub or_halant or_ja by or_ja_phalaa;
-sub or_halant or_jha by or_jha_phalaa;
-sub or_halant or_tta by or_tta_phalaa;
-sub or_halant or_ttha by or_ttha_phalaa;
-sub or_halant or_dda by or_dda_phalaa;
-sub or_halant or_ddha by or_ddha_phalaa;
-sub or_halant or_nna by or_nna_phalaa;
-sub or_halant or_ta by or_ta_phalaa;
-sub or_halant or_tha by or_tha_phalaa;
-sub or_halant or_da by or_da_phalaa;
-sub or_halant or_dha by or_dha_phalaa;
-sub or_halant or_na by or_na_phalaa;
-sub or_halant or_pa by or_pa_phalaa;
-sub or_halant or_pha by or_pha_phalaa;
-sub or_halant or_bha by or_bha_phalaa;
-sub or_halant or_ma by or_ma_phalaa;
-sub or_halant or_ra by or_ra_phalaa;
-sub or_halant or_lla by or_lla_phalaa;
-sub or_halant or_la by or_la_phalaa;
-sub or_halant [or_ba or_va or_wa] by or_va_phalaa; # Neutralized
-sub or_halant or_sha by or_sha_phalaa;
-sub or_halant or_ssa by or_ssa_phalaa;
-sub or_halant or_sa by or_sa_phalaa;
-sub or_halant or_ha by or_ha_phalaa;
-";
+code = "sub halant-oriya ka-oriya by ka_phalaa-oriya;
+sub halant-oriya kha-oriya by kha_phalaa-oriya;
+sub halant-oriya ga-oriya by ga_phalaa-oriya;
+sub halant-oriya gha-oriya by gha_phalaa-oriya;
+sub halant-oriya nga-oriya by nga_phalaa-oriya;
+sub halant-oriya ca-oriya by ca_phalaa-oriya;
+sub halant-oriya cha-oriya by cha_phalaa-oriya;
+sub halant-oriya ja-oriya by ja_phalaa-oriya;
+sub halant-oriya jha-oriya by jha_phalaa-oriya;
+sub halant-oriya tta-oriya by tta_phalaa-oriya;
+sub halant-oriya ttha-oriya by ttha_phalaa-oriya;
+sub halant-oriya dda-oriya by dda_phalaa-oriya;
+sub halant-oriya ddha-oriya by ddha_phalaa-oriya;
+sub halant-oriya nna-oriya by nna_phalaa-oriya;
+sub halant-oriya ta-oriya by ta_phalaa-oriya;
+sub halant-oriya tha-oriya by tha_phalaa-oriya;
+sub halant-oriya da-oriya by da_phalaa-oriya;
+sub halant-oriya dha-oriya by dha_phalaa-oriya;
+sub halant-oriya na-oriya by na_phalaa-oriya;
+sub halant-oriya pa-oriya by pa_phalaa-oriya;
+sub halant-oriya pha-oriya by pha_phalaa-oriya;
+sub halant-oriya bha-oriya by bha_phalaa-oriya;
+sub halant-oriya ma-oriya by ma_phalaa-oriya;
+sub halant-oriya ra-oriya by ra_phalaa-oriya;
+sub halant-oriya lla-oriya by lla_phalaa-oriya;
+sub halant-oriya la-oriya by la_phalaa-oriya;
+sub halant-oriya [ba-oriya va-oriya wa-oriya] by va_phalaa-oriya; # Neutralized
+sub halant-oriya sha-oriya by sha_phalaa-oriya;
+sub halant-oriya ssa-oriya by ssa_phalaa-oriya;
+sub halant-oriya sa-oriya by sa_phalaa-oriya;
+sub halant-oriya ha-oriya by ha_phalaa-oriya;";
 tag = blwf;
 },
 {

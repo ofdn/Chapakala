@@ -43,7 +43,7 @@ nodes = (
 );
 };
 backgroundImage = {
-imagePath = "../../../dda.png";
+imagePath = "../../../../dda.png";
 pos = (28,0);
 };
 layerId = m01;

@@ -3,7 +3,7 @@ glyphname = "ta-oriya";
 layers = (
 {
 backgroundImage = {
-imagePath = "../../../ta.png";
+imagePath = "../../../../ta.png";
 pos = (-2,0);
 scale = (1.8462,1.8462);
 };

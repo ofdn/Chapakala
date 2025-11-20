@@ -5,7 +5,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
-ref = or_yya_phalaa;
+ref = "yyasign-oriya";
 }
 );
 width = 419;

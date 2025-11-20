@@ -3,7 +3,7 @@ glyphname = "kTa-oriya";
 layers = (
 {
 backgroundImage = {
-imagePath = "../../../kta.png";
+imagePath = "../../../../kta.png";
 };
 layerId = m01;
 shapes = (

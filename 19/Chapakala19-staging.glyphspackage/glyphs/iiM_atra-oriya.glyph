@@ -3,7 +3,7 @@ glyphname = "iiMatra-oriya";
 layers = (
 {
 backgroundImage = {
-imagePath = "../../../ttii.png";
+imagePath = "../../../../ttii.png";
 scale = (3.6214,3.6214);
 };
 layerId = m01;

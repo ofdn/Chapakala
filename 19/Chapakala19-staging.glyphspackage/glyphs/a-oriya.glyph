@@ -4,7 +4,7 @@ glyphname = "a-oriya";
 layers = (
 {
 backgroundImage = {
-imagePath = "../../../a.png";
+imagePath = "../../../../a.png";
 };
 layerId = m01;
 shapes = (

@@ -40,7 +40,7 @@ nodes = (
 );
 };
 backgroundImage = {
-imagePath = "../../../ga.png";
+imagePath = "../../../../ga.png";
 pos = (25,0);
 };
 layerId = m01;

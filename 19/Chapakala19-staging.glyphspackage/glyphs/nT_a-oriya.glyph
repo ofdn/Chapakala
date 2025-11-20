@@ -3,7 +3,7 @@ glyphname = "nTa-oriya";
 layers = (
 {
 backgroundImage = {
-imagePath = "../../../nta.png";
+imagePath = "../../../../nta.png";
 };
 layerId = m01;
 shapes = (
@@ -39,7 +39,7 @@ nodes = (
 },
 {
 pos = (640,221);
-ref = or_ta_phalaa;
+ref = "tasign-oriya";
 },
 {
 closed = 1;

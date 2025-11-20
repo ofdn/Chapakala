@@ -3,7 +3,7 @@ glyphname = "ngGa-oriya";
 layers = (
 {
 backgroundImage = {
-imagePath = "../../../nga.png";
+imagePath = "../../../../nga.png";
 pos = (18,0);
 scale = (3.4633,3.4633);
 };

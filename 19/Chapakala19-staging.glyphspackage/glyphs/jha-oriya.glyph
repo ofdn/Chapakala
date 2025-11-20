@@ -116,7 +116,7 @@ nodes = (
 );
 };
 backgroundImage = {
-imagePath = "../../../jha.png";
+imagePath = "../../../../jha.png";
 pos = (50,-214);
 scale = (3.6341,3.6341);
 };

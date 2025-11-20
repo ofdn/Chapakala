@@ -7,7 +7,7 @@ axisRules = (
 );
 };
 backgroundImage = {
-imagePath = "../../../ai.png";
+imagePath = "../../../../ai.png";
 };
 layerId = m01;
 shapes = (

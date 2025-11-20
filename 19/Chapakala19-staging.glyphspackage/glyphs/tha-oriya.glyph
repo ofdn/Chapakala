@@ -86,7 +86,7 @@ nodes = (
 );
 };
 backgroundImage = {
-imagePath = "../../../tha.png";
+imagePath = "../../../../tha.png";
 scale = (3.662,3.662);
 };
 layerId = m01;

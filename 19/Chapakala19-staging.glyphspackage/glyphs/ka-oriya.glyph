@@ -53,7 +53,7 @@ nodes = (
 );
 };
 backgroundImage = {
-imagePath = "../../../ka.png";
+imagePath = "../../../../ka.png";
 locked = 1;
 pos = (0,-45);
 scale = (9.7787,9.7787);

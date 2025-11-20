@@ -27,7 +27,7 @@ nodes = (
 );
 };
 backgroundImage = {
-imagePath = "../../../na.png";
+imagePath = "../../../../na.png";
 pos = (-1,0);
 };
 layerId = m01;

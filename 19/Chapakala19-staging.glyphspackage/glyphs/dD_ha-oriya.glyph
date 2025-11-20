@@ -3,7 +3,7 @@ glyphname = "dDha-oriya";
 layers = (
 {
 backgroundImage = {
-imagePath = "../../../da-dha.png";
+imagePath = "../../../../da-dha.png";
 pos = (3,20);
 scale = (2.3232,2.3232);
 };

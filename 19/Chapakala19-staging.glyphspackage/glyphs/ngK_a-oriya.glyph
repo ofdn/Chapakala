@@ -168,7 +168,7 @@ nodes = (
 );
 };
 backgroundImage = {
-imagePath = "../../../nka.png";
+imagePath = "../../../../nka.png";
 pos = (-702,6);
 scale = (8.7917,8.7917);
 };

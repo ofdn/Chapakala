@@ -21,7 +21,7 @@ pos = (557,830);
 }
 );
 backgroundImage = {
-imagePath = "../../../dha.png";
+imagePath = "../../../../dha.png";
 };
 layerId = m01;
 shapes = (

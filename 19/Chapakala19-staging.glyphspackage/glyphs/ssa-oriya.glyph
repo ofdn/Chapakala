@@ -3,7 +3,7 @@ glyphname = "ssa-oriya";
 layers = (
 {
 backgroundImage = {
-imagePath = "../../../ssa.png";
+imagePath = "../../../../ssa.png";
 pos = (15,0);
 };
 hints = (

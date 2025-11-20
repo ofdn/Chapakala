@@ -49,7 +49,7 @@ nodes = (
 );
 };
 backgroundImage = {
-imagePath = "../../../u.png";
+imagePath = "../../../../u.png";
 pos = (-41,0);
 };
 hints = (

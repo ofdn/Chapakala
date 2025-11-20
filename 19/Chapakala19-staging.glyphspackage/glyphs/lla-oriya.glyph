@@ -3,7 +3,7 @@ glyphname = "lla-oriya";
 layers = (
 {
 backgroundImage = {
-imagePath = "../../../lla.png";
+imagePath = "../../../../lla.png";
 pos = (-3,18);
 scale = (1.9317,1.9317);
 };

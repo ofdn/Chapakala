@@ -48,7 +48,7 @@ nodes = (
 );
 };
 backgroundImage = {
-imagePath = "../../../o.png";
+imagePath = "../../../../o.png";
 pos = (-929,-378);
 scale = (10.1698,10.1698);
 };

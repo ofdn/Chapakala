@@ -3,7 +3,7 @@ glyphname = "sa-oriya";
 layers = (
 {
 backgroundImage = {
-imagePath = "../../../ma.png";
+imagePath = "../../../../ma.png";
 pos = (31,4);
 };
 layerId = m01;

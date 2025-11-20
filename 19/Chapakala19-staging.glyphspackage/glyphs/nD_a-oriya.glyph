@@ -3,7 +3,7 @@ glyphname = "nDa-oriya";
 layers = (
 {
 backgroundImage = {
-imagePath = "../../../nda.png";
+imagePath = "../../../../nda.png";
 pos = (-29,0);
 };
 layerId = m01;

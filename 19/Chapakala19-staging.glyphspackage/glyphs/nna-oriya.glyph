@@ -85,7 +85,7 @@ nodes = (
 );
 };
 backgroundImage = {
-imagePath = "../../../nna.png";
+imagePath = "../../../../nna.png";
 pos = (-58,0);
 };
 layerId = m01;

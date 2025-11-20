@@ -3,7 +3,7 @@ glyphname = "nnDda-oriya";
 layers = (
 {
 backgroundImage = {
-imagePath = "../../../nndda.png";
+imagePath = "../../../../nndda.png";
 pos = (1,20);
 scale = (1.6841,1.6841);
 };

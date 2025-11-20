@@ -3,7 +3,7 @@ glyphname = "kRa-oriya";
 layers = (
 {
 backgroundImage = {
-imagePath = "../../../k-ra.png";
+imagePath = "../../../../k-ra.png";
 pos = (1,16);
 scale = (2.9705,2.7956);
 };
