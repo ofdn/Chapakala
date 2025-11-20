@@ -1,0 +1,28 @@
+{
+glyphname = "avagraha-oriya";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(218,356,l),
+(57,195,l),
+(282,-31,l),
+(337,24,l),
+(165,195,l),
+(327,356,l),
+(157,526,l),
+(349,718,l),
+(295,773,l),
+(48,526,l)
+);
+}
+);
+width = 405;
+}
+);
+note = or_avagraha;
+unicode = 2877;
+}

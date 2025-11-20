@@ -1,0 +1,11 @@
+{
+glyphname = CR;
+layers = (
+{
+layerId = m01;
+width = 349;
+}
+);
+note = CR;
+unicode = 13;
+}

@@ -1,0 +1,99 @@
+{
+glyphname = d;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(65,116,o),
+(118,40,o),
+(200,-8,o),
+(254,-8,qs),
+(305,-8,o),
+(391,57,o),
+(423,106,q),
+(441,0,l),
+(611,0,l),
+(611,28,l),
+(598,28,o),
+(564,32,o),
+(534,44,o),
+(514,67,o),
+(514,86,qs),
+(514,834,l),
+(318,822,l),
+(318,796,l),
+(330,796,o),
+(367,793,o),
+(401,784,o),
+(427,767,o),
+(427,751,qs),
+(427,425,l),
+(394,477,o),
+(311,532,o),
+(261,532,qs),
+(206,532,o),
+(124,484,o),
+(67,407,o),
+(39,309,o),
+(39,260,qs),
+(39,212,o)
+);
+},
+{
+closed = 1;
+nodes = (
+(148,383,o),
+(176,450,o),
+(230,495,o),
+(275,495,qs),
+(319,495,o),
+(377,451,o),
+(414,385,o),
+(430,305,o),
+(430,270,qs),
+(430,236,o),
+(415,152,o),
+(380,80,o),
+(322,31,o),
+(277,31,qs),
+(231,31,o),
+(176,81,o),
+(148,154,o),
+(139,236,o),
+(139,270,qs),
+(139,304,o)
+);
+}
+);
+userData = {
+assembly = "SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+PUSHW[ ]	/* 1 value pushed */
+23
+MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+PUSHW[ ]	/* 2 values pushed */
+23 6
+MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 2 values pushed */
+22 2
+MIRP[10100]	/* MoveIndirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+38
+MDRP[10000]	/* MoveDirectRelPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */";
+};
+width = 639;
+}
+);
+note = d;
+unicode = 100;
+}

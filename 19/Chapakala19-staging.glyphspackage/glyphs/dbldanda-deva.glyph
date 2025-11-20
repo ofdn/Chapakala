@@ -1,0 +1,22 @@
+{
+glyphname = "dbldanda-deva";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = "danda-deva";
+},
+{
+alignment = -1;
+pos = (206,0);
+ref = "danda-deva";
+}
+);
+width = 914;
+}
+);
+note = dv_double_danda;
+unicode = 2405;
+}

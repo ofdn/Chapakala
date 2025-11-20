@@ -1,0 +1,16 @@
+{
+glyphname = or_onehalf;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = or_yya_phalaa;
+}
+);
+width = 419;
+}
+);
+note = or_onehalf;
+unicode = 2931;
+}

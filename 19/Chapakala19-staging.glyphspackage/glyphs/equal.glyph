@@ -1,0 +1,39 @@
+{
+glyphname = equal;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(57,134,l),
+(667,134,l),
+(667,195,l),
+(57,195,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(57,403,l),
+(667,403,l),
+(667,466,l),
+(57,466,l)
+);
+}
+);
+userData = {
+assembly = "SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 4 values pushed */
+0 1 1 4
+CALL[ ]	/* CallFunction */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */";
+};
+width = 672;
+}
+);
+note = equal;
+unicode = 61;
+}

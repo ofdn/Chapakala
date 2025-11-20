@@ -1,0 +1,20 @@
+{
+glyphname = "candraBindu-oriya";
+layers = (
+{
+backgroundImage = {
+imagePath = "../../../candrabindu1.png";
+scale = (3.4462,3.4462);
+};
+layerId = m01;
+shapes = (
+{
+ref = _or.candrabindu;
+}
+);
+width = 0;
+}
+);
+note = or_candrabindu;
+unicode = 2817;
+}

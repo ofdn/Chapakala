@@ -1,0 +1,23 @@
+{
+export = 0;
+glyphname = _or_ha_tick;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(336,77,l),
+(239,-28,l),
+(236,-31,o),
+(237,-34,o),
+(239,-35,c),
+(575,-197,l)
+);
+}
+);
+width = 681;
+}
+);
+}

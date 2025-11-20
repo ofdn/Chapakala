@@ -1,0 +1,97 @@
+{
+glyphname = u;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(71,483,ls),
+(96,483,o),
+(115,452,o),
+(115,432,qs),
+(115,159,ls),
+(115,123,o),
+(141,62,o),
+(185,17,o),
+(246,-8,o),
+(281,-8,qs),
+(309,-8,o),
+(362,10,o),
+(410,42,o),
+(454,82,o),
+(474,103,q),
+(490,0,l),
+(657,3,l),
+(657,28,l),
+(643,28,o),
+(609,34,o),
+(580,46,o),
+(559,68,o),
+(559,86,qs),
+(559,520,l),
+(387,507,l),
+(387,483,l),
+(429,483,ls),
+(450,483,o),
+(476,457,o),
+(476,432,qs),
+(476,192,ls),
+(476,162,o),
+(447,109,o),
+(402,68,o),
+(346,44,o),
+(318,44,qs),
+(294,44,o),
+(253,60,o),
+(220,87,o),
+(200,126,o),
+(200,148,qs),
+(200,520,l),
+(25,507,l),
+(25,483,l)
+);
+}
+);
+userData = {
+assembly = "SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+PUSHW[ ]	/* 1 value pushed */
+26
+MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+PUSHW[ ]	/* 2 values pushed */
+26 6
+MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 2 values pushed */
+7 1
+MIRP[10100]	/* MoveIndirectRelPt */
+NPUSHW[ ]	/* 31 values pushed */
+7 7 23 7 39 7 55 7 71 7 87 7 103 7 119 7 135 7 151 7 167 7 183 7 199 7 215 7 231 7 15
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 3 values pushed */
+246 7 1
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 3 values pushed */
+6 7 1
+DELTAP2[ ]	/* DeltaExceptionP2 */
+PUSHW[ ]	/* 1 value pushed */
+26
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 2 values pushed */
+25 2
+MIRP[10100]	/* MoveIndirectRelPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */";
+};
+width = 682;
+}
+);
+note = u;
+unicode = 117;
+}
