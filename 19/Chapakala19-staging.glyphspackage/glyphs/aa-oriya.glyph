@@ -99,11 +99,11 @@ nodes = (
 },
 {
 pos = (553,0);
-ref = "aaMatra-oriya";
+ref = "aasign-oriya";
 },
 {
 pos = (685,0);
-ref = "aaMatra-oriya";
+ref = "aasign-oriya";
 }
 );
 width = 872;

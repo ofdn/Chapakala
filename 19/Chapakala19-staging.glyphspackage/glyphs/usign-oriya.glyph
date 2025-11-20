@@ -1,0 +1,21 @@
+{
+glyphname = "usign-oriya";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (-208,0);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "usign-oriya.alt3";
+}
+);
+width = 0;
+}
+);
+note = or_ukaar;
+}
