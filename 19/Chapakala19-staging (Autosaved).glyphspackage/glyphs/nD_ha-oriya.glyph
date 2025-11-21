@@ -1,0 +1,25 @@
+{
+glyphname = "nDha-oriya";
+layers = (
+{
+.lastUpdate = 785404128.383;
+layerId = m01;
+shapes = (
+{
+ref = "nDa-oriya";
+},
+{
+closed = 1;
+nodes = (
+(225,582,l),
+(193,534,l),
+(650,222,l),
+(685,265,l)
+);
+}
+);
+width = 829;
+}
+);
+note = or_n_dha;
+}

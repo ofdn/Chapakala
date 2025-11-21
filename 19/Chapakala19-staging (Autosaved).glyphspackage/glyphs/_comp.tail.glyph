@@ -1,0 +1,19 @@
+{
+export = 0;
+glyphname = _comp.tail;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(647,47,l),
+(798,-98,l)
+);
+}
+);
+width = 870;
+}
+);
+}

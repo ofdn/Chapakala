@@ -1,0 +1,21 @@
+{
+export = 0;
+glyphname = _or.inktrap;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(558,555,l),
+(581,554,l),
+(577,573,l),
+(561,571,l)
+);
+}
+);
+width = 706;
+}
+);
+}

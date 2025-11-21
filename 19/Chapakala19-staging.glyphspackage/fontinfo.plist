@@ -581,102 +581,102 @@ code = "# Relevant glyph order at this point:
 
 lookupflag UseMarkFilteringSet [nukta-oriya]; # Ignore ikaar, ailengthmk, reph, candrabindu, ukaar, -oriya...
 
-sub ka or_kasign by or_k_ka;
-sub or_ka or_ttasign by or_k_tta;
-sub or_ka or_tasign by or_k_ta;
-sub or_ka or_rasign by or_k_ra;
+sub ka kasign-oriya by kaKa-oriya;
+sub ka-oriya ttasign-oriya by kaTta-oriya;
+sub ka-oriya tasign-oriya by kaTa-oriya;
+sub ka-oriya rasign-oriya by kaRa-oriya;
 
-sub or_nga or_kasign by or_ng_ka;
-sub or_nga or_khasign by or_ng_kha;
-sub or_nga or_gasign by or_ng_ga;
-sub or_nga or_ghasign by or_ng_gha;
+sub nga-oriya kasign-oriya by ngaKa-oriya;
+sub nga-oriya khasign-oriya by ngaKha-oriya;
+sub nga-oriya gasign-oriya by ngaGa-oriya;
+sub nga-oriya ghasign-oriya by ngaGha-oriya;
 
-sub or_ca or_casign by or_c_ca;
-sub or_ca or_chasign by or_c_cha;
+sub ca-oriya casign-oriya by caCa-oriya;
+sub ca-oriya chasign-oriya by caCha-oriya;
 
-sub or_ja or_jasign by or_j_ja;
+sub ja-oriya jasign-oriya by jaJa-oriya;
 
-sub or_nya or_casign by or_ny_ca;
-sub or_nya or_chasign by or_ny_cha;
-sub or_nya or_jasign by or_ny_ja;
-sub or_nya or_jhasign by or_ny_jha;
+sub nya-oriya casign-oriya by nyaCa-oriya;
+sub nya-oriya chasign-oriya by nyaCha-oriya;
+sub nya-oriya jasign-oriya by nyaJa-oriya;
+sub nya-oriya jhasign-oriya by nyaJha-oriya;
 
-sub or_tta or_ttasign by or_tt_tta;
+sub tta-oriya ttasign-oriya by ttaTta-oriya;
 
-sub or_nna or_ttasign by or_nn_tta;
-sub or_nna or_tthasign by or_nn_ttha;
-sub or_nna or_ddasign by or_nn_dda; 
-sub or_nna or_ddhasign by or_nn_ddha;
-sub or_nna or_nnasign by or_nn_nna;
+sub nna-oriya ttasign-oriya by nnaTta-oriya;
+sub nna-oriya tthasign-oriya by nnaTtha-oriya;
+sub nna-oriya ddasign-oriya by nnaDda-oriya; 
+sub nna-oriya ddhasign-oriya by nnaDdha-oriya;
+sub nna-oriya nnasign-oriya by nnaNna-oriya;
 
-sub or_ta or_kasign by or_t_ka;
-sub or_ta or_tasign by or_t_ta;
-sub or_ta or_nasign by or_t_na;
-sub or_ta or_pasign by or_t_pa;
-sub or_ta or_masign by or_t_ma;
-sub or_ta or_yyasign by or_t_yya;
-sub or_ta or_rasign by or_t_ra;
-sub or_ta or_vasign by or_t_va;
-sub or_ta or_sasign by or_t_sa;
-sub or_ta or_sasign or_nasign by or_t_s_na;
+sub ta-oriya kasign-oriya by taKa-oriya;
+sub ta-oriya tasign-oriya by taaTa-oriya;
+sub ta-oriya nasign-oriya by taaNa-oriya;
+sub ta-oriya pasign-oriya by taaPa-oriya;
+sub ta-oriya masign-oriya by taaMa-oriya;
+sub ta-oriya yyasign-oriya by ta_yya-oriya;
+sub ta-oriya rasign-oriya by ta_ra-oriya;
+sub ta-oriya vasign-oriya by taaVa-oriya;
+sub ta-oriya sasign-oriya by ta_sa-oriya;
+sub ta-oriya sasign-oriya nasign-oriya by ta_saNa-oriya;
 
-sub or_da or_dasign by or_d_da;
-sub or_da or_dhasign by or_d_dha;
-sub or_da or_bhasign by or_d_bha;
-sub or_da or_rasign by or_d_ra;
-sub or_da or_vasign by or_d_va;
+sub da-oriya dasign-oriya by d_da-oriya;
+sub da-oriya dhasign-oriya by d_dha-oriya;
+sub da-oriya bhasign-oriya by d_bha-oriya;
+sub da-oriya rasign-oriya by d_ra-oriya;
+sub da-oriya vasign-oriya by daVa-oriya;
 
-sub or_dha or_yyasign by or_dh_yya;
+sub dha-oriya yyasign-oriya by dh_yya-oriya;
 
-sub or_na or_tasign by or_n_ta;
-sub or_na or_tasign or_rasign by or_n_t_ra;
-sub or_na or_thasign by or_n_tha;
-sub or_na or_dasign by or_n_da;
-sub or_na or_dhasign by or_n_dha;
-sub or_na or_nasign by or_n_na;
-sub or_na or_masign by or_n_ma;
+sub na-oriya tasign-oriya by naTa-oriya;
+sub na-oriya tasign-oriya rasign-oriya by n_t_ra-oriya;
+sub na-oriya thasign-oriya by naTha-oriya;
+sub na-oriya dasign-oriya by n_da-oriya;
+sub na-oriya dhasign-oriya by n_dha-oriya;
+sub na-oriya nasign-oriya by naNa-oriya;
+sub na-oriya masign-oriya by naMa-oriya;
 
-sub or_pa or_tasign by or_p_ta;
+sub pa-oriya tasign-oriya by paTa-oriya;
 
-sub or_ba or_dasign by or_b_da;
-sub or_ba or_yyasign by or_b_yya;
-sub or_ba or_rasign by or_b_ra;
-sub or_ba or_vasign by or_b_ba;
+sub ba-oriya dasign-oriya by b_da-oriya;
+sub ba-oriya yyasign-oriya by b_yya-oriya;
+sub ba-oriya rasign-oriya by b_ra-oriya;
+sub ba-oriya vasign-oriya by b_ba-oriya;
 
-sub or_ma or_pasign by or_m_pa;
-sub or_ma or_phasign by or_m_pha;
-sub or_ma or_bhasign by or_m_bha;
-sub or_ma or_masign by or_m_ma;
-sub or_ma or_vasign by or_m_va;
+sub ma-oriya pasign-oriya by maPa-oriya;
+sub ma-oriya phasign-oriya by maPha-oriya;
+sub ma-oriya bhasign-oriya by m_bha-oriya;
+sub ma-oriya masign-oriya by maMa-oriya;
+sub ma-oriya vasign-oriya by maVa-oriya;
 
-sub or_lla or_pasign by or_ll_pa;
+sub lla-oriya pasign-oriya by llaPa-oriya;
 
-sub or_la or_yyasign by or_l_yya;
-sub or_la or_lasign by or_l_la;
+sub la-oriya yyasign-oriya by l_yya-oriya;
+sub la-oriya lasign-oriya by laLa-oriya;
 
-sub or_sha or_casign by or_sh_ca;
-sub or_sha or_chasign by or_sh_cha;
+sub sha-oriya casign-oriya by shaCa-oriya;
+sub sha-oriya chasign-oriya by shaCha-oriya;
 
-sub or_ssa or_kasign by or_ss_ka;
-sub or_ssa or_ttasign by or_ss_tta;
-sub or_ssa or_ttasign or_rasign by or_ss_tt_ra;
-sub or_ssa or_tthasign by or_ss_ttha;
-sub or_ssa or_nnasign by or_ss_nna;
-sub or_ssa or_pasign by or_ss_pa;
-sub or_ssa or_phasign by or_ss_pha;
+sub ssa-oriya kasign-oriya by ssaKa-oriya;
+sub ssa-oriya ttasign-oriya by ssaTta-oriya;
+sub ssa-oriya ttasign-oriya rasign-oriya by ss_tt_ra-oriya;
+sub ssa-oriya tthasign-oriya by ss_ttha-oriya;
+sub ssa-oriya nnasign-oriya by ss_nna-oriya;
+sub ssa-oriya pasign-oriya by ssaPa-oriya;
+sub ssa-oriya phasign-oriya by ssaPha-oriya;
 
-sub or_sa or_kasign by or_s_ka;
-sub or_sa or_khasign by or_s_kha;
-sub or_sa or_tasign by or_s_ta;
-sub or_sa or_tasign or_rasign by or_s_t_ra;
-sub or_sa or_thasign by or_s_tha;
-sub or_sa or_pasign by or_s_pa;
-sub or_sa or_phasign by or_s_pha;
+sub sa-oriya kasign-oriya by sKa-oriya;
+sub sa-oriya khasign-oriya by saKha-oriya;
+sub sa-oriya tasign-oriya by saTa-oriya;
+sub sa-oriya tasign-oriya rasign-oriya by s_t_ra-oriya;
+sub sa-oriya thasign-oriya by saTha-oriya;
+sub sa-oriya pasign-oriya by saPa-oriya;
+sub sa-oriya phasign-oriya by saPha-oriya;
 
-sub or_ha or_nasign by or_h_na;
-sub or_ha or_masign by or_h_ma;
-sub or_ha or_lasign by or_h_la;
-sub or_ha or_vasign by or_h_va;
+sub ha-oriya nasign-oriya by haNa-oriya;
+sub ha-oriya masign-oriya by haMa-oriya;
+sub ha-oriya lasign-oriya by haLa-oriya;
+sub ha-oriya vasign-oriya by haVa-oriya;
 -oriya";
 tag = pres;
 },

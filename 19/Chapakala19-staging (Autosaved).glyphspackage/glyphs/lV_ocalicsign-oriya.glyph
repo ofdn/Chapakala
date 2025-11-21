@@ -1,0 +1,10 @@
+{
+glyphname = "lVocalicsign-oriya";
+layers = (
+{
+layerId = m01;
+width = 656;
+}
+);
+note = or_lukaar;
+}

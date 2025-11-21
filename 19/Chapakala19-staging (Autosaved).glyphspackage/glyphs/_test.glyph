@@ -1,0 +1,15 @@
+{
+glyphname = _test;
+layers = (
+{
+.lastUpdate = 785404693.611;
+layerId = m01;
+shapes = (
+{
+ref = _or.roundEnd;
+}
+);
+width = 600;
+}
+);
+}

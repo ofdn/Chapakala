@@ -1,0 +1,10 @@
+{
+glyphname = newGlyph;
+lastChange = "2025-11-21 05:15:28 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+}

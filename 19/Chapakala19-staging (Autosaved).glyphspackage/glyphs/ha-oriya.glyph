@@ -1,0 +1,47 @@
+{
+glyphname = "ha-oriya";
+layers = (
+{
+.lastUpdate = 785404692.274;
+backgroundImage = {
+imagePath = "/Users/psubhashish/Documents/Text-Typography/ha.png";
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(254,-10,l),
+(256,-11,o),
+(258,-19,o),
+(265,-47,c),
+(395,101,l),
+(332,119,l),
+(211,-11,ls),
+(192,-30,o),
+(202,-49,o),
+(224,-60,cs),
+(586,-235,l),
+(617,-185,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(292,-7,l),
+(254,-8,l),
+(289,-36,l),
+(292,-32,l),
+(292,-17,l)
+);
+},
+{
+ref = "da-oriya";
+}
+);
+width = 732;
+}
+);
+note = or_ha;
+unicode = 2873;
+}

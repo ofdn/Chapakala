@@ -1,0 +1,21 @@
+{
+glyphname = "candraBindu-oriya";
+layers = (
+{
+.lastUpdate = 785404693.195;
+backgroundImage = {
+imagePath = "/Users/psubhashish/Documents/Text-Typography/candrabindu1.png";
+scale = (3.4462,3.4462);
+};
+layerId = m01;
+shapes = (
+{
+ref = "candraBindu-oriya.alt";
+}
+);
+width = 0;
+}
+);
+note = or_candrabindu;
+unicode = 2817;
+}
