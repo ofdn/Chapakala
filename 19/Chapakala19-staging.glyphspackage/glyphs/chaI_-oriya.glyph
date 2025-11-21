@@ -1,0 +1,19 @@
+{
+glyphname = "chaI-oriya";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "caI-oriya";
+},
+{
+pos = (0,-14);
+ref = _or.GaiChanda;
+}
+);
+width = 738;
+}
+);
+note = or_ch_ikaar;
+}
