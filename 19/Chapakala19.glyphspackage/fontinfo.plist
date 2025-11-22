@@ -1277,10 +1277,10 @@ name = Regular;
 userData = {
 GSCornerRadius = 30;
 GSOffsetCapStyle = 3;
-GSOffsetHorizontal = 35;
+GSOffsetHorizontal = 32;
 GSOffsetKeepCompatible = 1;
 GSOffsetMakeStroke = 1;
-GSOffsetVertical = 28;
+GSOffsetVertical = 25;
 };
 }
 );
@@ -1336,7 +1336,7 @@ type = descender;
 name = Midrib;
 }
 );
-note = "phala - 32x25; regular - 35x28";
+note = "regular - 35x28; phala - 32x25, smallPhala - 30x22";
 properties = (
 {
 key = copyrights;
