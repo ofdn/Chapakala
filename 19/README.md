@@ -109,7 +109,8 @@ We remain open to further support as we plan to expand to more typefaces of diff
 
 # Footnotes
 <a id="1">[1]</a>
-
 Odia and Odisha were historically spelt respectively as Oriya and Orissa, and the latter spellings are used here to appropriately refer to such historical use.
+
+# References
 - Orissa Mission Press publications, Cuttack (1838–1900s) (archived by Srujanika, hosted at [Odia Bibhaba](https://odiabibhaba.in/bahi/).
 - *New Testament in Odia* (Serampore, 1811).
