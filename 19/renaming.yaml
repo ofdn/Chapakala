@@ -1,12 +1,12 @@
 # <new name>: <old name if different>
 
-.notdef:
-.null:
-CR:
+.notdef: # Need outlines
+.null: # Unnecessary glyph
+CR: # Unnecessary glyph
 space:
-danda-deva: dv_danda
-dbldanda-deva: dv_double_danda
-candraBindu-orya: or_candrabindu
+danda-deva: dv_danda # Non-Odia glyphs should indeed follow the Glyphs app's naming
+dbldanda-deva: dv_double_danda # Ditto
+candrabindu-orya: or_candrabindu # All-lowercase
 anusvara-orya: or_anusvara
 visarga-orya: or_visarga
 a-orya: or_a
@@ -15,8 +15,8 @@ i-orya: or_i
 ii-orya: or_ii
 u-orya: or_u
 uu-orya: or_uu
-rVocalic-orya: or_ru
-lVocalic-orya: or_lu
+vocalicr-orya: or_ru # Follow Unicode character name; all-lowercase
+vocalicl-orya: or_lu # Ditto
 e-orya: or_e
 ai-orya: or_ai
 o-orya: or_o
@@ -46,7 +46,7 @@ pha-orya: or_pha
 ba-orya: or_ba
 bha-orya: or_bha
 ma-orya: or_ma
-ma-orya.alt: or_ma.alt
+ma-orya.alt: or_ma.alt # Should not export if not used in shaping
 ya-orya: or_ya
 ra-orya: or_ra
 la-orya: or_la
@@ -58,28 +58,28 @@ sa-orya: or_sa
 ha-orya: or_ha
 nukta-orya: or_nukta
 avagraha-orya: or_avagraha
-aaMatra-orya: or_aakaar
-iMatra-orya: or_ikaar
-iiMatra-orya: or_iikaar
-uMatra-orya: or_ukaar
-uuMatra-orya: or_uukaar
-rVocalicMatra-orya: or_rukaar
-rrVocalicMatra-orya: or_rrukaar
-eMatra-orya: or_ekaar
-aiMatra-orya: or_aikaar
-oMatra-orya: or_okaar
-auMatra-orya: or_aukaar
-halant-orya: or_halant
-uni0B55:
-aiLength-orya: or_ailengthmk
-auLength-orya: or_aulengthmk
+aasign-orya: or_aakaar # Follow Unicode character name; special order for signs; all-lowercase
+isign-orya: or_ikaar # Ditto
+iisign-orya: or_iikaar # Ditto
+usign-orya: or_ukaar # Ditto
+uusign-orya: or_uukaar # Ditto
+vocalicrsign-orya: or_rukaar # Ditto
+vocalicrrsign-orya: or_rrukaar # Ditto
+esign-orya: or_ekaar # Ditto
+aisign-orya: or_aikaar # Ditto
+osign-orya: or_okaar # Ditto
+ausign-orya: or_aukaar # Ditto
+virama-orya: or_halant # Follow Unicode character name
+overline-orya: uni0B55
+partialaisign-orya: or_ailengthmk # Special name
+partialausign-orya: or_aulengthmk # Ditto
 rra-orya: or_rra
 rha-orya: or_rha
 yya-orya: or_yya
-rrVocalic-orya: or_rru
-llVocalic-orya: or_llu
-lVocalicMatra-orya: or_lukaar
-llVocalicMatra-orya: or_llukaar
+vocalicrr-orya: or_rru # Follow Unicode character name; all-lowercase
+vocalicll-orya: or_llu # Ditto
+vocaliclsign-orya: or_lukaar # Follow Unicode character name; special order for signs; all-lowercase
+vocalicllsign-orya: or_llukaar # Ditto
 zero-orya: or_zero
 one-orya: or_one
 two-orya: or_two
@@ -129,13 +129,13 @@ tNa-orya: or_t_na
 tPa-orya: or_t_pa
 tMa-orya: or_t_ma
 tSa-orya: or_t_sa
-tYya-orya: or_t_yya
-tVa-orya: or_t_va
+tYya-orya: or_t_yya # See yyasign
+tBa-orya: or_t_va # See basign
 dDa-orya: or_d_da
 dDha-orya: or_d_dha
 dBha-orya: or_d_bha
-dVa-orya: or_d_va
-dhYya-orya: or_dh_yya
+dBa-orya: or_d_va # See basign
+dhYya-orya: or_dh_yya # See yyasign
 nTa-orya: or_n_ta
 nTRa-orya: or_n_t_ra
 nTha-orya: or_n_tha
@@ -144,12 +144,12 @@ nDha-orya: or_n_dha
 nNa-orya: or_n_na
 nMa-orya: or_n_ma
 pTa-orya: or_p_ta
-baAnusvara-orya: or_b_anusvara
+ba_anusvara-orya: or_b_anusvara # Better analyzed as a typographical ligature
 bDa-orya: or_b_da
 bBa-orya: or_b_ba
 mPa-orya: or_m_pa
 mPha-orya: or_m_pha
-mVa-orya: or_m_va
+mBa-orya: or_m_va # See basign
 mBha-orya: or_m_bha
 mMa-orya: or_m_ma
 llPa-orya: or_ll_pa
@@ -171,8 +171,8 @@ sPha-orya: or_s_pha
 hNa-orya: or_h_na
 hMa-orya: or_h_ma
 hLa-orya: or_h_la
-hVa-orya: or_h_va
-lYya-orya: or_l_yya
+hBa-orya: or_h_va # See basign
+lYya-orya: or_l_yya # See yyasign
 lLa-orya: or_l_la
 kRa-orya: or_k_ra
 tRa-orya: or_t_ra
@@ -225,12 +225,12 @@ nU-orya: or_n_ukaar
 bU-orya: or_b_ukaar
 bhU-orya: or_bh_ukaar
 hU-orya: or_h_ukaar
-kRVocalic-orya: or_k_rukaar
-tRVocalic-orya: or_t_rukaar
-dRVocalic-orya: or_d_rukaar
-bRVocalic-orya: or_b_rukaar
-bhRVocalic-orya: or_bh_rukaar
-ikaarBelow-orya: or_ikaar_below
+kVocalicr-orya: or_k_rukaar # See vocalicr
+tVocalicr-orya: or_t_rukaar # Ditto
+dVocalicr-orya: or_d_rukaar # Ditto
+bVocalicr-orya: or_b_rukaar # Ditto
+bhVocalicr-orya: or_bh_rukaar # Ditto
+isignbelow-orya: or_ikaar_below # See isign; should not export if not used in shaping
 kasign-orya: or_ka_phalaa
 khasign-orya: or_kha_phalaa
 gasign-orya: or_ga_phalaa
@@ -246,43 +246,43 @@ ddasign-orya: or_dda_phalaa
 ddhasign-orya: or_ddha_phalaa
 nnasign-orya: or_nna_phalaa
 tasign-orya: or_ta_phalaa
-thasign-orya: or_tha_phalaa
-thasign-orya.alt: or_tha_phalaa.alt
+thasign-orya.alt: or_tha_phalaa # Should not export if not used in shaping
+thasign-orya: or_tha_phalaa.alt # This seems to be the more productive form
 dasign-orya: or_da_phalaa
 dhasign-orya: or_dha_phalaa
 nasign-orya: or_na_phalaa
 pasign-orya: or_pa_phalaa
 phasign-orya: or_pha_phalaa
-basign-orya: or_ba_phalaa
+basign-orya.alt: or_ba_phalaa # Unnecessary glyph; conjoining sign of ba is the common ba/wa-phala
 bhasign-orya: or_bha_phalaa
-bhasign-orya.alt: or_bha_phalaa.alt
+bhasign-orya.alt: or_bha_phalaa.alt # Should not export if not used in shaping
 masign-orya: or_ma_phalaa
-masign-orya.alt: or_ma_phalaa.alt
-yasign-orya: or_ya_phalaa
-reph-orya: or_reph
+masign-orya.alt: or_ma_phalaa.alt # Should not export if not used in shaping
+yasign-orya: or_ya_phalaa # Unnecessary glyph; conjoining sign of ya is the common ya/yya-phala
+repha-orya: or_reph # Follow character names' Sanskrit spelling convention
 rasign-orya: or_ra_phalaa
 lasign-orya: or_la_phalaa
 llasign-orya: or_lla_phalaa
-vasign-orya: or_va_phalaa
+basign-orya: or_va_phalaa # This is the actual conjoining sign of ba; va is a scholarly letter and its conjoining sign is undefined in ordinary writing
 shasign-orya: or_sha_phalaa
 ssasign-orya: or_ssa_phalaa
 sasign-orya: or_sa_phalaa
 hasign-orya: or_ha_phalaa
 tRasign-orya: or_t_ra_phalaa
-yyasign-orya: or_yya_phalaa
-ttTta-orya.alt: or_tt_tta.alt
-dhYya-orya.alt: or_dh_yya.alt
-LlI-orya.alt: or_ll_ikaar.alt
-LI-orya.alt: or_l_ikaar.alt
-NIi-orya.alt: or_n_iikaar.alt
-BIi-orya.alt: or_b_iikaar.alt
-U-orya.wide: or_ukaar.wide
-U-orya.alt: or_ukaar.alt
-Uu-orya.wide: or_uukaar.wide
-Uu-orya.alt: or_uukaar.alt
-reph-orya.alt: or_reph.alt
-U-orya.alt2: or_ukaar.alt2
-b_reph:
+yyasign-orya: or_yya_phalaa # I believe it's better to analyze this as yasign, but this is fine because (unlike the ba/wa/va situation) both ya and yya are common letters
+ttTta-orya.alt: or_tt_tta.alt # Should not export if not used in shaping
+dhYya-orya.alt: or_dh_yya.alt # Ditto; see yyasign
+LlI-orya.alt: or_ll_ikaar.alt # Should not export if not used in shaping
+LI-orya.alt: or_l_ikaar.alt # Should not export if not used in shaping
+NIi-orya.alt: or_n_iikaar.alt # Should not export if not used in shaping
+BIi-orya.alt: or_b_iikaar.alt # Should not export if not used in shaping
+usign-orya.wide: or_ukaar.wide # See usign
+usign-orya.alt: or_ukaar.alt # Ditto
+uusign-orya.wide: or_uukaar.wide # See uusign
+uusign-orya.alt: or_uukaar.alt # Ditto
+repha-orya.alt: or_reph.alt # See repha
+usign-orya.alt2: or_ukaar.alt2 # See usign
+ba_repha-orya: b_reph # Old name is syntactically incorrect
 B:
 C:
 D:
@@ -295,7 +295,7 @@ J:
 K:
 L:
 M:
-N:
+"N":
 O:
 P:
 Q:
@@ -306,7 +306,7 @@ U:
 V:
 W:
 X:
-Y:
+"Y":
 Z:
 a:
 b:
@@ -321,7 +321,7 @@ j:
 k:
 l:
 m:
-n:
+"n":
 o:
 p:
 q:
@@ -332,7 +332,7 @@ u:
 v:
 w:
 x:
-y:
+"y":
 z:
 zero:
 one:
@@ -412,18 +412,18 @@ lessequal:
 greaterequal:
 A:
 khRIi-orya: or_kh_r_ii
-PU-orya: or_p_ukaar
+pU-orya: or_p_ukaar # Corrected camelCasing
 kSsIi-orya: or_k_ss_ii
-YyU-orya: or_yy_ukaar
-iikaarRef-orya: or_iikaar_ref
-TKRVocalic-orya: or_t_k_ru
+yyU-orya: or_yy_ukaar # Corrected camelCasing
+iisign_repha-orya: or_iikaar_ref # Better analyzed as a typographical ligature; see iisign, repha
+tKVocalicr-orya: or_t_k_ru # Corrected camelCasing; see Vocalicr
 kSsI-orya: or_k_ss_i
 ssTtRa-orya: or_ss_tt_ra
 ssTtRU-orya: or_ss_tt_r_u
-_corner.circle:
-_corner.smallCircle:
-_corner.square:
-_corner.tailLeft:
+_corner.circle: # Should not export
+_corner.smallCircle: # Ditto
+_corner.square: # Ditto
+_corner.tailLeft: # Ditto
 _corner.inkSquareAngle:
 _corner.left:
 _corner.tailBottom:
@@ -432,17 +432,17 @@ _or.ja-ya-curve:
 _or.la-puda:
 _or.tta-o-wa:
 _or_ai-au:
-bYya-orya: or_b_yya
-dDaReph-orya: or_d_da_reph
-dDhaReph-orya: or_d_dha_reph
-nnNnaReph-orya: or_nn_nna_reph
+bYya-orya: or_b_yya # See yyasign
+dDa_repha-orya: or_d_da_reph # Better analyzed as a typographical ligature; see repha
+dDha_repha-orya: or_d_dha_reph # Ditto
+nnNna_repha-orya: or_nn_nna_reph # Ditto
 shRa-orya: or_sh_ra
 tSNa-orya: or_t_s_na
-test:
-_or.CircleShape:
-ai-orya.alt: or_ai.alt
-kSsa-orya.alt: or_k_ssa.alt
-paOrRasign-orya.liga: or_pa_or_ra_phalaa.liga
+test: # No longer needed?
+_or.CircleShape: # Should not export
+ai-orya.alt: or_ai.alt # Should not export if not used in shaping
+kSsa-orya.alt: or_k_ssa.alt # Should not export if not used in shaping
+paOrRasign-orya.liga: or_pa_or_ra_phalaa.liga # No longer needed?
 _basicMunduli:
 _kern:
 _or_Tta_kaar:
