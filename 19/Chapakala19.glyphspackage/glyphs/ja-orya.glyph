@@ -124,8 +124,8 @@ nodes = (
 width = 752;
 }
 );
-metricLeft = "=or_ca";
-metricRight = "=or_ca";
+metricLeft = "ca-orya";
+metricRight = "ca-orya";
 note = or_ja;
 unicode = 2844;
 }

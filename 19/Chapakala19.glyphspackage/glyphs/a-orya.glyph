@@ -1,5 +1,4 @@
 {
-category = Letter;
 glyphname = "a-orya";
 layers = (
 {
@@ -115,7 +114,5 @@ width = 740;
 }
 );
 note = or_a;
-script = oriya;
-subCategory = "";
 unicode = 2821;
 }

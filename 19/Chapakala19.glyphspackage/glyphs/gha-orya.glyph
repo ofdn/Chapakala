@@ -128,8 +128,8 @@ nodes = (
 width = 708;
 }
 );
-metricLeft = "=or_ga";
-metricRight = "=or_ga";
+metricLeft = "ga-orya";
+metricRight = "ga-orya";
 note = or_gha;
 unicode = 2840;
 }
