@@ -440,8 +440,8 @@ shRa-orya: or_sh_ra
 tSNa-orya: or_t_s_na
 test: # No longer needed?
 _or.CircleShape: # Should not export
-ai-orya.alt: or_ai.alt # Should not export if not used in shaping
-kSsa-orya.alt: or_k_ssa.alt # Should not export if not used in shaping
+ai-orya.init: or_ai.alt
+kSsa-orya.init: or_k_ssa.alt
 paOrRasign-orya.liga: or_pa_or_ra_phalaa.liga # No longer needed?
 _basicMunduli:
 _kern:
