@@ -100,7 +100,7 @@ oneeighth-orya: or_oneeighth
 threesixteenths-orya: or_threesixteenths
 zerowidthnonjoiner:
 zerowidthjoiner:
-dottedcircle:
+dottedCircle: dottedcircle
 kKa-orya: or_k_ka
 kTta-orya: or_k_tta
 kTa-orya: or_k_ta
@@ -442,7 +442,7 @@ test: # No longer needed?
 _or.CircleShape: # Should not export
 ai-orya.init: or_ai.alt
 kSsa-orya.init: or_k_ssa.alt
-paOrRasign-orya.liga: or_pa_or_ra_phalaa.liga # No longer needed?
+pRa-orya: or_pa_or_ra_phalaa.liga
 _basicMunduli:
 _kern:
 _or_Tta_kaar:
