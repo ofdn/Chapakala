@@ -1,0 +1,22 @@
+{
+glyphname = "onesixteenth-orya";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(503,646,l),
+(439,668,l),
+(146,4,l),
+(210,-18,l)
+);
+}
+);
+width = 620;
+}
+);
+note = or_onesixteenth;
+unicode = 2933;
+}

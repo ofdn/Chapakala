@@ -1,0 +1,11 @@
+{
+glyphname = "vocalicll-orya";
+layers = (
+{
+layerId = m01;
+width = 580;
+}
+);
+note = or_llu;
+unicode = 2913;
+}

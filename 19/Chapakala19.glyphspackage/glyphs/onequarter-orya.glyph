@@ -1,0 +1,16 @@
+{
+glyphname = "onequarter-orya";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "aasign-orya";
+}
+);
+width = 172;
+}
+);
+note = or_onequarter;
+unicode = 2930;
+}
