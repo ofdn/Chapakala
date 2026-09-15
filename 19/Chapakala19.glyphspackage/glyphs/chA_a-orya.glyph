@@ -6,7 +6,7 @@ layerId = m01;
 shapes = (
 {
 pos = (92,-93);
-ref = _or.GaiChanda;
+ref = _GaiChanda;
 },
 {
 closed = 1;

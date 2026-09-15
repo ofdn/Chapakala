@@ -9,7 +9,7 @@ ref = "cI-orya";
 },
 {
 pos = (0,-14);
-ref = _or.GaiChanda;
+ref = _GaiChanda;
 }
 );
 width = 738;

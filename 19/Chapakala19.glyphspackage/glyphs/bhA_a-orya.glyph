@@ -145,7 +145,7 @@ nodes = (
 },
 {
 pos = (23,-265);
-ref = _or.inktrap;
+ref = _inktrap;
 scale = (1,1.452);
 }
 );

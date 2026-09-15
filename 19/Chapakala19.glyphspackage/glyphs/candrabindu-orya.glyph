@@ -9,7 +9,7 @@ scale = (3.4462,3.4462);
 layerId = m01;
 shapes = (
 {
-ref = _or.candrabindu;
+ref = _candrabindu;
 }
 );
 width = 0;
